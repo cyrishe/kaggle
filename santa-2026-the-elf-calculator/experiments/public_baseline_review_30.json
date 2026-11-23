@@ -1,0 +1,1679 @@
+{
+  "aggregate": {
+    "seed": 20261123,
+    "cases": 30,
+    "total_instructions": 3978,
+    "operations": {
+      "+": 1347,
+      "-": 1172,
+      "*": 1353,
+      "/": 106
+    },
+    "cases_with_intermediate_shared_between_targets": 30,
+    "median_shared_intermediates": 64.0,
+    "sorted_target_order_cases": 0,
+    "median_first_target_step": 20.5
+  },
+  "cases": [
+    {
+      "id": "scored_0031",
+      "starting_values": [
+        642,
+        1047,
+        1373,
+        1948
+      ],
+      "targets": 28,
+      "instructions": 262,
+      "operations": {
+        "+": 74,
+        "-": 93,
+        "*": 92,
+        "/": 3
+      },
+      "squares": 5,
+      "register_indices_used": 46,
+      "first_target_step": 21,
+      "last_target_step": 262,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 88,
+      "non_target_values_ancestor_of_2_targets": 114,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 28,
+          "direct_instruction_uses": 9
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 28,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 28,
+          "direct_instruction_uses": 11
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 28,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 32,
+          "produced_at_step": 5,
+          "target_descendants": 28,
+          "direct_instruction_uses": 10
+        }
+      ]
+    },
+    {
+      "id": "scored_0055",
+      "starting_values": [
+        349,
+        353,
+        468
+      ],
+      "targets": 16,
+      "instructions": 83,
+      "operations": {
+        "+": 28,
+        "-": 26,
+        "*": 26,
+        "/": 3
+      },
+      "squares": 4,
+      "register_indices_used": 27,
+      "first_target_step": 14,
+      "last_target_step": 83,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 37,
+      "non_target_values_ancestor_of_2_targets": 50,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 16,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 16,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 16,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 16,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 3744,
+          "produced_at_step": 8,
+          "target_descendants": 16,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0076",
+      "starting_values": [
+        3,
+        28,
+        33
+      ],
+      "targets": 30,
+      "instructions": 144,
+      "operations": {
+        "+": 50,
+        "-": 47,
+        "*": 40,
+        "/": 7
+      },
+      "squares": 1,
+      "register_indices_used": 47,
+      "first_target_step": 6,
+      "last_target_step": 144,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 56,
+      "non_target_values_ancestor_of_2_targets": 66,
+      "shared_examples": [
+        {
+          "value": 924,
+          "produced_at_step": 1,
+          "target_descendants": 30,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 36,
+          "produced_at_step": 2,
+          "target_descendants": 30,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 66,
+          "produced_at_step": 7,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 12,
+          "produced_at_step": 10,
+          "target_descendants": 29,
+          "direct_instruction_uses": 10
+        },
+        {
+          "value": 432,
+          "produced_at_step": 11,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        }
+      ]
+    },
+    {
+      "id": "scored_0091",
+      "starting_values": [
+        3,
+        13
+      ],
+      "targets": 8,
+      "instructions": 24,
+      "operations": {
+        "+": 9,
+        "-": 6,
+        "*": 9,
+        "/": 0
+      },
+      "squares": 3,
+      "register_indices_used": 10,
+      "first_target_step": 13,
+      "last_target_step": 24,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 12,
+      "non_target_values_ancestor_of_2_targets": 14,
+      "shared_examples": [
+        {
+          "value": 9,
+          "produced_at_step": 1,
+          "target_descendants": 8,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 27,
+          "produced_at_step": 2,
+          "target_descendants": 8,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 14,
+          "produced_at_step": 3,
+          "target_descendants": 8,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 4,
+          "produced_at_step": 4,
+          "target_descendants": 8,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 41,
+          "produced_at_step": 5,
+          "target_descendants": 8,
+          "direct_instruction_uses": 1
+        }
+      ]
+    },
+    {
+      "id": "scored_0104",
+      "starting_values": [
+        111,
+        1142,
+        1352
+      ],
+      "targets": 32,
+      "instructions": 242,
+      "operations": {
+        "+": 89,
+        "-": 71,
+        "*": 77,
+        "/": 5
+      },
+      "squares": 6,
+      "register_indices_used": 48,
+      "first_target_step": 18,
+      "last_target_step": 242,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 99,
+      "non_target_values_ancestor_of_2_targets": 130,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 32,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 11
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 32,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 32,
+          "produced_at_step": 5,
+          "target_descendants": 32,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0114",
+      "starting_values": [
+        834,
+        1519,
+        1540,
+        1698,
+        1714
+      ],
+      "targets": 30,
+      "instructions": 178,
+      "operations": {
+        "+": 60,
+        "-": 55,
+        "*": 57,
+        "/": 6
+      },
+      "squares": 3,
+      "register_indices_used": 47,
+      "first_target_step": 22,
+      "last_target_step": 178,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 74,
+      "non_target_values_ancestor_of_2_targets": 100,
+      "shared_examples": [
+        {
+          "value": 16,
+          "produced_at_step": 1,
+          "target_descendants": 30,
+          "direct_instruction_uses": 11
+        },
+        {
+          "value": 32,
+          "produced_at_step": 2,
+          "target_descendants": 30,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 64,
+          "produced_at_step": 3,
+          "target_descendants": 30,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 2,
+          "produced_at_step": 4,
+          "target_descendants": 30,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 128,
+          "produced_at_step": 9,
+          "target_descendants": 30,
+          "direct_instruction_uses": 2
+        }
+      ]
+    },
+    {
+      "id": "scored_0164",
+      "starting_values": [
+        10,
+        14,
+        19
+      ],
+      "targets": 30,
+      "instructions": 130,
+      "operations": {
+        "+": 41,
+        "-": 39,
+        "*": 44,
+        "/": 6
+      },
+      "squares": 2,
+      "register_indices_used": 47,
+      "first_target_step": 14,
+      "last_target_step": 130,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 53,
+      "non_target_values_ancestor_of_2_targets": 65,
+      "shared_examples": [
+        {
+          "value": 5,
+          "produced_at_step": 1,
+          "target_descendants": 30,
+          "direct_instruction_uses": 9
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 30,
+          "direct_instruction_uses": 9
+        },
+        {
+          "value": 3,
+          "produced_at_step": 3,
+          "target_descendants": 30,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 30,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 196,
+          "produced_at_step": 8,
+          "target_descendants": 30,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0178",
+      "starting_values": [
+        4,
+        11,
+        21,
+        23
+      ],
+      "targets": 32,
+      "instructions": 110,
+      "operations": {
+        "+": 48,
+        "-": 32,
+        "*": 28,
+        "/": 2
+      },
+      "squares": 2,
+      "register_indices_used": 42,
+      "first_target_step": 16,
+      "last_target_step": 110,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 52,
+      "non_target_values_ancestor_of_2_targets": 60,
+      "shared_examples": [
+        {
+          "value": 15,
+          "produced_at_step": 1,
+          "target_descendants": 32,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 315,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 326,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 84,
+          "produced_at_step": 4,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 410,
+          "produced_at_step": 5,
+          "target_descendants": 32,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0191",
+      "starting_values": [
+        3,
+        10,
+        19,
+        24
+      ],
+      "targets": 29,
+      "instructions": 103,
+      "operations": {
+        "+": 36,
+        "-": 27,
+        "*": 35,
+        "/": 5
+      },
+      "squares": 3,
+      "register_indices_used": 36,
+      "first_target_step": 20,
+      "last_target_step": 103,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 39,
+      "non_target_values_ancestor_of_2_targets": 48,
+      "shared_examples": [
+        {
+          "value": 6,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 12,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 20,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 44,
+          "produced_at_step": 5,
+          "target_descendants": 29,
+          "direct_instruction_uses": 4
+        }
+      ]
+    },
+    {
+      "id": "scored_0279",
+      "starting_values": [
+        690,
+        1108,
+        1372,
+        1870
+      ],
+      "targets": 30,
+      "instructions": 278,
+      "operations": {
+        "+": 82,
+        "-": 84,
+        "*": 106,
+        "/": 6
+      },
+      "squares": 7,
+      "register_indices_used": 48,
+      "first_target_step": 46,
+      "last_target_step": 278,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 99,
+      "non_target_values_ancestor_of_2_targets": 130,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 30,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 30,
+          "direct_instruction_uses": 14
+        },
+        {
+          "value": 4,
+          "produced_at_step": 4,
+          "target_descendants": 30,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 16,
+          "produced_at_step": 5,
+          "target_descendants": 30,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 256,
+          "produced_at_step": 6,
+          "target_descendants": 30,
+          "direct_instruction_uses": 8
+        }
+      ]
+    },
+    {
+      "id": "scored_0289",
+      "starting_values": [
+        4,
+        14
+      ],
+      "targets": 7,
+      "instructions": 18,
+      "operations": {
+        "+": 5,
+        "-": 4,
+        "*": 6,
+        "/": 3
+      },
+      "squares": 2,
+      "register_indices_used": 20,
+      "first_target_step": 3,
+      "last_target_step": 18,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 8,
+      "non_target_values_ancestor_of_2_targets": 9,
+      "shared_examples": [
+        {
+          "value": 196,
+          "produced_at_step": 1,
+          "target_descendants": 7,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 49,
+          "produced_at_step": 2,
+          "target_descendants": 7,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 3,
+          "produced_at_step": 4,
+          "target_descendants": 6,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 9,
+          "produced_at_step": 5,
+          "target_descendants": 6,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 205,
+          "produced_at_step": 6,
+          "target_descendants": 5,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0351",
+      "starting_values": [
+        7,
+        23,
+        27,
+        28
+      ],
+      "targets": 32,
+      "instructions": 162,
+      "operations": {
+        "+": 49,
+        "-": 55,
+        "*": 54,
+        "/": 4
+      },
+      "squares": 3,
+      "register_indices_used": 46,
+      "first_target_step": 35,
+      "last_target_step": 162,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 71,
+      "non_target_values_ancestor_of_2_targets": 93,
+      "shared_examples": [
+        {
+          "value": 16,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 784,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 11,
+          "produced_at_step": 9,
+          "target_descendants": 32,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 777,
+          "produced_at_step": 11,
+          "target_descendants": 32,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 32,
+          "produced_at_step": 8,
+          "target_descendants": 30,
+          "direct_instruction_uses": 4
+        }
+      ]
+    },
+    {
+      "id": "scored_0387",
+      "starting_values": [
+        2,
+        6
+      ],
+      "targets": 8,
+      "instructions": 23,
+      "operations": {
+        "+": 9,
+        "-": 7,
+        "*": 6,
+        "/": 1
+      },
+      "squares": 0,
+      "register_indices_used": 25,
+      "first_target_step": 11,
+      "last_target_step": 23,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 12,
+      "non_target_values_ancestor_of_2_targets": 14,
+      "shared_examples": [
+        {
+          "value": 3,
+          "produced_at_step": 1,
+          "target_descendants": 8,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 9,
+          "produced_at_step": 2,
+          "target_descendants": 8,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 54,
+          "produced_at_step": 3,
+          "target_descendants": 8,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 48,
+          "produced_at_step": 4,
+          "target_descendants": 8,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 46,
+          "produced_at_step": 5,
+          "target_descendants": 8,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0398",
+      "starting_values": [
+        344,
+        875,
+        1808
+      ],
+      "targets": 28,
+      "instructions": 213,
+      "operations": {
+        "+": 80,
+        "-": 46,
+        "*": 83,
+        "/": 4
+      },
+      "squares": 3,
+      "register_indices_used": 41,
+      "first_target_step": 23,
+      "last_target_step": 213,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 81,
+      "non_target_values_ancestor_of_2_targets": 102,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 28,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 28,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 28,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 28,
+          "direct_instruction_uses": 10
+        },
+        {
+          "value": 867,
+          "produced_at_step": 5,
+          "target_descendants": 28,
+          "direct_instruction_uses": 7
+        }
+      ]
+    },
+    {
+      "id": "scored_0435",
+      "starting_values": [
+        4,
+        6,
+        12,
+        19,
+        27
+      ],
+      "targets": 29,
+      "instructions": 117,
+      "operations": {
+        "+": 38,
+        "-": 30,
+        "*": 46,
+        "/": 3
+      },
+      "squares": 4,
+      "register_indices_used": 39,
+      "first_target_step": 25,
+      "last_target_step": 117,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 48,
+      "non_target_values_ancestor_of_2_targets": 51,
+      "shared_examples": [
+        {
+          "value": 16,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 10,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 14,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 266,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 532,
+          "produced_at_step": 5,
+          "target_descendants": 29,
+          "direct_instruction_uses": 2
+        }
+      ]
+    },
+    {
+      "id": "scored_0506",
+      "starting_values": [
+        5,
+        8,
+        9,
+        10,
+        14
+      ],
+      "targets": 31,
+      "instructions": 124,
+      "operations": {
+        "+": 34,
+        "-": 42,
+        "*": 42,
+        "/": 6
+      },
+      "squares": 3,
+      "register_indices_used": 45,
+      "first_target_step": 27,
+      "last_target_step": 124,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 53,
+      "non_target_values_ancestor_of_2_targets": 61,
+      "shared_examples": [
+        {
+          "value": 13,
+          "produced_at_step": 1,
+          "target_descendants": 31,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 169,
+          "produced_at_step": 2,
+          "target_descendants": 31,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 22,
+          "produced_at_step": 3,
+          "target_descendants": 31,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 191,
+          "produced_at_step": 4,
+          "target_descendants": 31,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 112,
+          "produced_at_step": 5,
+          "target_descendants": 31,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0553",
+      "starting_values": [
+        13,
+        24
+      ],
+      "targets": 31,
+      "instructions": 130,
+      "operations": {
+        "+": 35,
+        "-": 38,
+        "*": 53,
+        "/": 4
+      },
+      "squares": 4,
+      "register_indices_used": 45,
+      "first_target_step": 28,
+      "last_target_step": 130,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 53,
+      "non_target_values_ancestor_of_2_targets": 63,
+      "shared_examples": [
+        {
+          "value": 11,
+          "produced_at_step": 1,
+          "target_descendants": 31,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 31,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 31,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 6,
+          "produced_at_step": 4,
+          "target_descendants": 31,
+          "direct_instruction_uses": 11
+        },
+        {
+          "value": 10,
+          "produced_at_step": 6,
+          "target_descendants": 31,
+          "direct_instruction_uses": 7
+        }
+      ]
+    },
+    {
+      "id": "scored_0574",
+      "starting_values": [
+        5,
+        12,
+        19,
+        33
+      ],
+      "targets": 30,
+      "instructions": 107,
+      "operations": {
+        "+": 41,
+        "-": 34,
+        "*": 32,
+        "/": 0
+      },
+      "squares": 1,
+      "register_indices_used": 37,
+      "first_target_step": 5,
+      "last_target_step": 107,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 48,
+      "non_target_values_ancestor_of_2_targets": 57,
+      "shared_examples": [
+        {
+          "value": 28,
+          "produced_at_step": 1,
+          "target_descendants": 30,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 532,
+          "produced_at_step": 2,
+          "target_descendants": 30,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 6384,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 627,
+          "produced_at_step": 7,
+          "target_descendants": 26,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 594,
+          "produced_at_step": 8,
+          "target_descendants": 25,
+          "direct_instruction_uses": 4
+        }
+      ]
+    },
+    {
+      "id": "scored_0590",
+      "starting_values": [
+        2,
+        4,
+        33
+      ],
+      "targets": 29,
+      "instructions": 109,
+      "operations": {
+        "+": 32,
+        "-": 31,
+        "*": 40,
+        "/": 6
+      },
+      "squares": 2,
+      "register_indices_used": 41,
+      "first_target_step": 35,
+      "last_target_step": 109,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 45,
+      "non_target_values_ancestor_of_2_targets": 54,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 3,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 5,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 10,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 43,
+          "produced_at_step": 5,
+          "target_descendants": 29,
+          "direct_instruction_uses": 2
+        }
+      ]
+    },
+    {
+      "id": "scored_0669",
+      "starting_values": [
+        6,
+        9,
+        16
+      ],
+      "targets": 32,
+      "instructions": 108,
+      "operations": {
+        "+": 43,
+        "-": 16,
+        "*": 45,
+        "/": 4
+      },
+      "squares": 3,
+      "register_indices_used": 36,
+      "first_target_step": 19,
+      "last_target_step": 108,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 46,
+      "non_target_values_ancestor_of_2_targets": 47,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 10,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 8,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 80,
+          "produced_at_step": 4,
+          "target_descendants": 32,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 14,
+          "produced_at_step": 5,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        }
+      ]
+    },
+    {
+      "id": "scored_0671",
+      "starting_values": [
+        14,
+        28
+      ],
+      "targets": 29,
+      "instructions": 196,
+      "operations": {
+        "+": 56,
+        "-": 63,
+        "*": 68,
+        "/": 9
+      },
+      "squares": 4,
+      "register_indices_used": 45,
+      "first_target_step": 24,
+      "last_target_step": 196,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 85,
+      "non_target_values_ancestor_of_2_targets": 100,
+      "shared_examples": [
+        {
+          "value": 42,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 3,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 9
+        },
+        {
+          "value": 9,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 31,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 279,
+          "produced_at_step": 5,
+          "target_descendants": 29,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0691",
+      "starting_values": [
+        6,
+        15,
+        28,
+        31
+      ],
+      "targets": 31,
+      "instructions": 143,
+      "operations": {
+        "+": 42,
+        "-": 52,
+        "*": 48,
+        "/": 1
+      },
+      "squares": 3,
+      "register_indices_used": 46,
+      "first_target_step": 11,
+      "last_target_step": 143,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 61,
+      "non_target_values_ancestor_of_2_targets": 73,
+      "shared_examples": [
+        {
+          "value": 784,
+          "produced_at_step": 1,
+          "target_descendants": 31,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 769,
+          "produced_at_step": 2,
+          "target_descendants": 31,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 4614,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 62,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 4629,
+          "produced_at_step": 6,
+          "target_descendants": 29,
+          "direct_instruction_uses": 3
+        }
+      ]
+    },
+    {
+      "id": "scored_0745",
+      "starting_values": [
+        741,
+        977,
+        1704,
+        1735
+      ],
+      "targets": 32,
+      "instructions": 188,
+      "operations": {
+        "+": 71,
+        "-": 55,
+        "*": 59,
+        "/": 3
+      },
+      "squares": 3,
+      "register_indices_used": 48,
+      "first_target_step": 33,
+      "last_target_step": 188,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 74,
+      "non_target_values_ancestor_of_2_targets": 95,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 32,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 9
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 32,
+          "produced_at_step": 5,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        }
+      ]
+    },
+    {
+      "id": "scored_0754",
+      "starting_values": [
+        1952
+      ],
+      "targets": 29,
+      "instructions": 178,
+      "operations": {
+        "+": 62,
+        "-": 53,
+        "*": 62,
+        "/": 1
+      },
+      "squares": 2,
+      "register_indices_used": 45,
+      "first_target_step": 27,
+      "last_target_step": 178,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 80,
+      "non_target_values_ancestor_of_2_targets": 101,
+      "shared_examples": [
+        {
+          "value": 1,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 6
+        },
+        {
+          "value": 2,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 4,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 8,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 11
+        },
+        {
+          "value": 32,
+          "produced_at_step": 5,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        }
+      ]
+    },
+    {
+      "id": "scored_0773",
+      "starting_values": [
+        126,
+        132,
+        155,
+        188,
+        288,
+        386,
+        402
+      ],
+      "targets": 8,
+      "instructions": 44,
+      "operations": {
+        "+": 21,
+        "-": 10,
+        "*": 13,
+        "/": 0
+      },
+      "squares": 0,
+      "register_indices_used": 18,
+      "first_target_step": 9,
+      "last_target_step": 44,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 14,
+      "non_target_values_ancestor_of_2_targets": 21,
+      "shared_examples": [
+        {
+          "value": 788,
+          "produced_at_step": 1,
+          "target_descendants": 8,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 1174,
+          "produced_at_step": 2,
+          "target_descendants": 8,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 29,
+          "produced_at_step": 7,
+          "target_descendants": 8,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 373,
+          "produced_at_step": 8,
+          "target_descendants": 8,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 103,
+          "produced_at_step": 10,
+          "target_descendants": 5,
+          "direct_instruction_uses": 2
+        }
+      ]
+    },
+    {
+      "id": "scored_0824",
+      "starting_values": [
+        3,
+        8
+      ],
+      "targets": 32,
+      "instructions": 143,
+      "operations": {
+        "+": 58,
+        "-": 32,
+        "*": 48,
+        "/": 5
+      },
+      "squares": 4,
+      "register_indices_used": 48,
+      "first_target_step": 24,
+      "last_target_step": 143,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 62,
+      "non_target_values_ancestor_of_2_targets": 75,
+      "shared_examples": [
+        {
+          "value": 64,
+          "produced_at_step": 1,
+          "target_descendants": 32,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 4096,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 11,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 19,
+          "produced_at_step": 4,
+          "target_descendants": 32,
+          "direct_instruction_uses": 8
+        },
+        {
+          "value": 9,
+          "produced_at_step": 6,
+          "target_descendants": 32,
+          "direct_instruction_uses": 8
+        }
+      ]
+    },
+    {
+      "id": "scored_0833",
+      "starting_values": [
+        9,
+        20,
+        24,
+        34
+      ],
+      "targets": 29,
+      "instructions": 129,
+      "operations": {
+        "+": 51,
+        "-": 31,
+        "*": 44,
+        "/": 3
+      },
+      "squares": 0,
+      "register_indices_used": 43,
+      "first_target_step": 20,
+      "last_target_step": 129,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 62,
+      "non_target_values_ancestor_of_2_targets": 71,
+      "shared_examples": [
+        {
+          "value": 43,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 480,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 23,
+          "produced_at_step": 6,
+          "target_descendants": 28,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 500,
+          "produced_at_step": 3,
+          "target_descendants": 27,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 21500,
+          "produced_at_step": 4,
+          "target_descendants": 27,
+          "direct_instruction_uses": 4
+        }
+      ]
+    },
+    {
+      "id": "scored_0874",
+      "starting_values": [
+        10,
+        11,
+        14
+      ],
+      "targets": 13,
+      "instructions": 27,
+      "operations": {
+        "+": 11,
+        "-": 8,
+        "*": 7,
+        "/": 1
+      },
+      "squares": 2,
+      "register_indices_used": 12,
+      "first_target_step": 12,
+      "last_target_step": 27,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 11,
+      "non_target_values_ancestor_of_2_targets": 11,
+      "shared_examples": [
+        {
+          "value": 4,
+          "produced_at_step": 1,
+          "target_descendants": 13,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 8,
+          "produced_at_step": 2,
+          "target_descendants": 13,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 12,
+          "produced_at_step": 3,
+          "target_descendants": 13,
+          "direct_instruction_uses": 2
+        },
+        {
+          "value": 26,
+          "produced_at_step": 4,
+          "target_descendants": 13,
+          "direct_instruction_uses": 3
+        },
+        {
+          "value": 34,
+          "produced_at_step": 5,
+          "target_descendants": 12,
+          "direct_instruction_uses": 2
+        }
+      ]
+    },
+    {
+      "id": "scored_0920",
+      "starting_values": [
+        9,
+        17,
+        32
+      ],
+      "targets": 29,
+      "instructions": 149,
+      "operations": {
+        "+": 41,
+        "-": 58,
+        "*": 46,
+        "/": 4
+      },
+      "squares": 1,
+      "register_indices_used": 41,
+      "first_target_step": 34,
+      "last_target_step": 149,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 60,
+      "non_target_values_ancestor_of_2_targets": 68,
+      "shared_examples": [
+        {
+          "value": 1024,
+          "produced_at_step": 1,
+          "target_descendants": 29,
+          "direct_instruction_uses": 7
+        },
+        {
+          "value": 8,
+          "produced_at_step": 2,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 16,
+          "produced_at_step": 3,
+          "target_descendants": 29,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 4,
+          "produced_at_step": 4,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 5,
+          "produced_at_step": 5,
+          "target_descendants": 29,
+          "direct_instruction_uses": 5
+        }
+      ]
+    },
+    {
+      "id": "scored_0988",
+      "starting_values": [
+        9,
+        16
+      ],
+      "targets": 32,
+      "instructions": 116,
+      "operations": {
+        "+": 51,
+        "-": 27,
+        "*": 37,
+        "/": 1
+      },
+      "squares": 4,
+      "register_indices_used": 41,
+      "first_target_step": 41,
+      "last_target_step": 116,
+      "target_order_is_sorted": false,
+      "non_target_values_reused_by_2_instructions": 51,
+      "non_target_values_ancestor_of_2_targets": 55,
+      "shared_examples": [
+        {
+          "value": 18,
+          "produced_at_step": 2,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 27,
+          "produced_at_step": 3,
+          "target_descendants": 32,
+          "direct_instruction_uses": 4
+        },
+        {
+          "value": 11,
+          "produced_at_step": 4,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 38,
+          "produced_at_step": 5,
+          "target_descendants": 32,
+          "direct_instruction_uses": 5
+        },
+        {
+          "value": 36,
+          "produced_at_step": 6,
+          "target_descendants": 32,
+          "direct_instruction_uses": 6
+        }
+      ]
+    }
+  ]
+}

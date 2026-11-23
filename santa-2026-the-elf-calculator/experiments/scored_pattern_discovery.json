@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "scored_0001",
+    "starts": [
+      631,
+      889,
+      1205,
+      1563
+    ],
+    "value_limit": 1445817928925762,
+    "target_count": 32,
+    "counts": {
+      "short_difference_links": 0,
+      "short_multiplicative_links": 0,
+      "shared_factors": 13,
+      "shared_anchors": 0
+    },
+    "short_difference_examples": [],
+    "short_multiplicative_examples": [],
+    "shared_factor_examples": [
+      {
+        "factor": 61,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 182343787866257,
+            "quotient": 2989242424037,
+            "quotient_recipe": null
+          },
+          {
+            "target": 412640695250585,
+            "quotient": 6764601561485,
+            "quotient_recipe": null
+          },
+          {
+            "target": 704871985085342,
+            "quotient": 11555278444022,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 8682,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 203095089825738,
+            "quotient": 23392661809,
+            "quotient_recipe": null
+          },
+          {
+            "target": 477728176081446,
+            "quotient": 55025129703,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 4341,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 203095089825738,
+            "quotient": 46785323618,
+            "quotient_recipe": null
+          },
+          {
+            "target": 477728176081446,
+            "quotient": 110050259406,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 170,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 580914898850420,
+            "quotient": 3417146463826,
+            "quotient_recipe": null
+          },
+          {
+            "target": 715841163805250,
+            "quotient": 4210830375325,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 133,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 302156719549531,
+            "quotient": 2271855034207,
+            "quotient_recipe": null
+          },
+          {
+            "target": 350759351645521,
+            "quotient": 2637288358237,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 97,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 520198447775528,
+            "quotient": 5362870595624,
+            "quotient_recipe": null
+          },
+          {
+            "target": 535614856379827,
+            "quotient": 5521802643091,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 85,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 580914898850420,
+            "quotient": 6834292927652,
+            "quotient_recipe": null
+          },
+          {
+            "target": 715841163805250,
+            "quotient": 8421660750650,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 70,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 715841163805250,
+            "quotient": 10226302340075,
+            "quotient_recipe": null
+          },
+          {
+            "target": 956254897051440,
+            "quotient": 13660784243592,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": []
+  },
+  {
+    "id": "scored_0112",
+    "starts": [
+      307,
+      356,
+      623,
+      1178
+    ],
+    "value_limit": 3781614070699574,
+    "target_count": 29,
+    "counts": {
+      "short_difference_links": 0,
+      "short_multiplicative_links": 0,
+      "shared_factors": 3,
+      "shared_anchors": 0
+    },
+    "short_difference_examples": [],
+    "short_multiplicative_examples": [],
+    "shared_factor_examples": [
+      {
+        "factor": 34,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 121212550154734,
+            "quotient": 3565075004551,
+            "quotient_recipe": null
+          },
+          {
+            "target": 541173925230050,
+            "quotient": 15916880153825,
+            "quotient_recipe": null
+          },
+          {
+            "target": 829022494164364,
+            "quotient": 24383014534246,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 129,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 142917741211008,
+            "quotient": 1107889466752,
+            "quotient_recipe": null
+          },
+          {
+            "target": 431697269850195,
+            "quotient": 3346490463955,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 52,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 193789111470292,
+            "quotient": 3726713682121,
+            "quotient_recipe": null
+          },
+          {
+            "target": 840228568019464,
+            "quotient": 16158241692682,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": []
+  },
+  {
+    "id": "scored_0223",
+    "starts": [
+      8,
+      12,
+      22,
+      27,
+      33
+    ],
+    "value_limit": 998005801261975719,
+    "target_count": 31,
+    "counts": {
+      "short_difference_links": 1,
+      "short_multiplicative_links": 4,
+      "shared_factors": 14,
+      "shared_anchors": 0
+    },
+    "short_difference_examples": [
+      {
+        "from": 6220132554832,
+        "to": 6220132554896,
+        "multiplier": 1,
+        "residual": 64,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 2,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "*",
+            8,
+            8,
+            64
+          ]
+        ]
+      }
+    ],
+    "short_multiplicative_examples": [
+      {
+        "from": 203469078507,
+        "to": 1220814471114,
+        "multiplier": 6,
+        "residual": 72,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [
+          [
+            "-",
+            33,
+            27,
+            6
+          ]
+        ],
+        "correction_recipe": []
+      },
+      {
+        "from": 53246023785,
+        "to": 159738071325,
+        "multiplier": 3,
+        "residual": -30,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "-",
+            12,
+            8,
+            4
+          ],
+          [
+            "/",
+            12,
+            4,
+            3
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "+",
+            8,
+            22,
+            30
+          ]
+        ]
+      },
+      {
+        "from": 194444637916,
+        "to": 972223188660,
+        "multiplier": 5,
+        "residual": -920,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "-",
+            27,
+            22,
+            5
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            8,
+            22,
+            176
+          ],
+          [
+            "+",
+            176,
+            8,
+            184
+          ]
+        ]
+      },
+      {
+        "from": 203469078507,
+        "to": 8138763141028,
+        "multiplier": 40,
+        "residual": 748,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 6,
+        "multiplier_recipe": [
+          [
+            "+",
+            8,
+            12,
+            20
+          ],
+          [
+            "+",
+            20,
+            20,
+            40
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "+",
+            12,
+            22,
+            34
+          ],
+          [
+            "*",
+            34,
+            22,
+            748
+          ]
+        ]
+      }
+    ],
+    "shared_factor_examples": [
+      {
+        "factor": 272,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "*",
+            8,
+            33,
+            264
+          ],
+          [
+            "+",
+            264,
+            8,
+            272
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 6220132554896,
+            "quotient": 22868134393,
+            "quotient_recipe": null
+          },
+          {
+            "target": 995190319703520656,
+            "quotient": 3658787940086473,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 137,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 6220132554896,
+            "quotient": 45402427408,
+            "quotient_recipe": null
+          },
+          {
+            "target": 616975267099960403,
+            "quotient": 4503469102919419,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 136,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "*",
+            12,
+            12,
+            144
+          ],
+          [
+            "-",
+            144,
+            8,
+            136
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 6220132554896,
+            "quotient": 45736268786,
+            "quotient_recipe": null
+          },
+          {
+            "target": 995190319703520656,
+            "quotient": 7317575880172946,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 112,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "-",
+            22,
+            8,
+            14
+          ],
+          [
+            "*",
+            14,
+            8,
+            112
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 6220132554832,
+            "quotient": 55536897811,
+            "quotient_recipe": null
+          },
+          {
+            "target": 9756454139228048,
+            "quotient": 87111197671679,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 101,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 770737989433821565,
+            "quotient": 7631069202315065,
+            "quotient_recipe": null
+          },
+          {
+            "target": 995190319703520656,
+            "quotient": 9853369502015056,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 92,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 194444637916,
+            "quotient": 2113528673,
+            "quotient_recipe": null
+          },
+          {
+            "target": 972223188660,
+            "quotient": 10567643355,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 89,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 676810805654400541,
+            "quotient": 7604615793869669,
+            "quotient_recipe": null
+          },
+          {
+            "target": 955447355889492638,
+            "quotient": 10735363549320142,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 68,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "+",
+            8,
+            27,
+            35
+          ],
+          [
+            "+",
+            35,
+            33,
+            68
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 6220132554896,
+            "quotient": 91472537572,
+            "quotient_recipe": null
+          },
+          {
+            "target": 995190319703520656,
+            "quotient": 14635151760345892,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": []
+  },
+  {
+    "id": "scored_0390",
+    "starts": [
+      9,
+      16,
+      25
+    ],
+    "value_limit": 9455759357686,
+    "target_count": 29,
+    "counts": {
+      "short_difference_links": 3,
+      "short_multiplicative_links": 0,
+      "shared_factors": 16,
+      "shared_anchors": 2
+    },
+    "short_difference_examples": [
+      {
+        "from": 26409883,
+        "to": 26409924,
+        "multiplier": 1,
+        "residual": 41,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 2,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "+",
+            16,
+            25,
+            41
+          ]
+        ]
+      },
+      {
+        "from": 26409796,
+        "to": 26409924,
+        "multiplier": 1,
+        "residual": 128,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "*",
+            9,
+            16,
+            144
+          ],
+          [
+            "-",
+            144,
+            16,
+            128
+          ]
+        ]
+      },
+      {
+        "from": 26409427,
+        "to": 26409796,
+        "multiplier": 1,
+        "residual": 369,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "+",
+            16,
+            25,
+            41
+          ],
+          [
+            "*",
+            41,
+            9,
+            369
+          ]
+        ]
+      }
+    ],
+    "short_multiplicative_examples": [],
+    "shared_factor_examples": [
+      {
+        "factor": 1884,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 49756291164,
+            "quotient": 26409921,
+            "quotient_recipe": null
+          },
+          {
+            "target": 99508938672,
+            "quotient": 52817908,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 173816700,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 942,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 49756291164,
+            "quotient": 52819842,
+            "quotient_recipe": null
+          },
+          {
+            "target": 99508938672,
+            "quotient": 105635816,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 347633400,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 628,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 49756291164,
+            "quotient": 79229763,
+            "quotient_recipe": null
+          },
+          {
+            "target": 99508938672,
+            "quotient": 158453724,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 521450100,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 471,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 49756291164,
+            "quotient": 105639684,
+            "quotient_recipe": null
+          },
+          {
+            "target": 99508938672,
+            "quotient": 211271632,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 695266800,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 59,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "+",
+            9,
+            25,
+            34
+          ],
+          [
+            "+",
+            34,
+            25,
+            59
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 43455801,
+            "quotient": 736539,
+            "quotient_recipe": null
+          },
+          {
+            "target": 184855732,
+            "quotient": 3133148,
+            "quotient_recipe": null
+          },
+          {
+            "target": 373785591,
+            "quotient": 6335349,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 40,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 3063549560,
+            "quotient": 76588739,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 8186766570,
+            "quotient_recipe": null
+          },
+          {
+            "target": 4227631200040,
+            "quotient": 105690780001,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 36,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "+",
+            9,
+            9,
+            18
+          ],
+          [
+            "+",
+            18,
+            18,
+            36
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 26409924,
+            "quotient": 733609,
+            "quotient_recipe": null
+          },
+          {
+            "target": 49756291164,
+            "quotient": 1382119199,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 9096407300,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 7536,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 99508938672,
+            "quotient": 13204477,
+            "quotient_recipe": null
+          },
+          {
+            "target": 327470662800,
+            "quotient": 43454175,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": [
+      {
+        "anchor": 26409924,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 26409796,
+            "residual": -128,
+            "correction_recipe": [
+              [
+                "*",
+                9,
+                16,
+                144
+              ],
+              [
+                "-",
+                144,
+                16,
+                128
+              ]
+            ]
+          },
+          {
+            "target": 26409883,
+            "residual": -41,
+            "correction_recipe": [
+              [
+                "+",
+                16,
+                25,
+                41
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": 26409796,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 26409427,
+            "residual": -369,
+            "correction_recipe": [
+              [
+                "+",
+                16,
+                25,
+                41
+              ],
+              [
+                "*",
+                41,
+                9,
+                369
+              ]
+            ]
+          },
+          {
+            "target": 26409924,
+            "residual": 128,
+            "correction_recipe": [
+              [
+                "*",
+                9,
+                16,
+                144
+              ],
+              [
+                "-",
+                144,
+                16,
+                128
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "scored_0556",
+    "starts": [
+      3,
+      7,
+      13,
+      14,
+      17
+    ],
+    "value_limit": 215435216,
+    "target_count": 8,
+    "counts": {
+      "short_difference_links": 1,
+      "short_multiplicative_links": 7,
+      "shared_factors": 0,
+      "shared_anchors": 0
+    },
+    "short_difference_examples": [
+      {
+        "from": 440045,
+        "to": 440113,
+        "multiplier": 1,
+        "residual": 68,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "-",
+            7,
+            3,
+            4
+          ],
+          [
+            "*",
+            4,
+            17,
+            68
+          ]
+        ]
+      }
+    ],
+    "short_multiplicative_examples": [
+      {
+        "from": 440113,
+        "to": 3960945,
+        "multiplier": 9,
+        "residual": -72,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "*",
+            3,
+            3,
+            9
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "+",
+            7,
+            17,
+            24
+          ],
+          [
+            "*",
+            24,
+            3,
+            72
+          ]
+        ]
+      },
+      {
+        "from": 3960945,
+        "to": 7921656,
+        "multiplier": 2,
+        "residual": -234,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "/",
+            14,
+            7,
+            2
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            13,
+            17,
+            221
+          ],
+          [
+            "+",
+            221,
+            13,
+            234
+          ]
+        ]
+      },
+      {
+        "from": 440113,
+        "to": 7921656,
+        "multiplier": 18,
+        "residual": -378,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "+",
+            3,
+            3,
+            6
+          ],
+          [
+            "*",
+            6,
+            3,
+            18
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            3,
+            7,
+            21
+          ]
+        ]
+      },
+      {
+        "from": 440113,
+        "to": 53693298,
+        "multiplier": 122,
+        "residual": -488,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "*",
+            7,
+            17,
+            119
+          ],
+          [
+            "+",
+            119,
+            3,
+            122
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "-",
+            7,
+            3,
+            4
+          ]
+        ]
+      },
+      {
+        "from": 440045,
+        "to": 3960945,
+        "multiplier": 9,
+        "residual": 540,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "*",
+            3,
+            3,
+            9
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "+",
+            3,
+            17,
+            20
+          ],
+          [
+            "*",
+            20,
+            3,
+            60
+          ]
+        ]
+      },
+      {
+        "from": 440045,
+        "to": 7921656,
+        "multiplier": 18,
+        "residual": 846,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 6,
+        "multiplier_recipe": [
+          [
+            "+",
+            3,
+            3,
+            6
+          ],
+          [
+            "*",
+            6,
+            3,
+            18
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "+",
+            13,
+            17,
+            30
+          ],
+          [
+            "+",
+            30,
+            17,
+            47
+          ]
+        ]
+      },
+      {
+        "from": 440045,
+        "to": 53693298,
+        "multiplier": 122,
+        "residual": 7808,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 6,
+        "multiplier_recipe": [
+          [
+            "*",
+            7,
+            17,
+            119
+          ],
+          [
+            "+",
+            119,
+            3,
+            122
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            3,
+            17,
+            51
+          ],
+          [
+            "+",
+            51,
+            13,
+            64
+          ]
+        ]
+      }
+    ],
+    "shared_factor_examples": [],
+    "shared_anchor_examples": []
+  },
+  {
+    "id": "scored_0596",
+    "starts": [
+      8,
+      9,
+      11,
+      27,
+      32
+    ],
+    "value_limit": 789878314231134856,
+    "target_count": 28,
+    "counts": {
+      "short_difference_links": 1,
+      "short_multiplicative_links": 8,
+      "shared_factors": 40,
+      "shared_anchors": 0
+    },
+    "short_difference_examples": [
+      {
+        "from": 20834777382,
+        "to": 20834777634,
+        "multiplier": 1,
+        "residual": 252,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "*",
+            9,
+            27,
+            243
+          ],
+          [
+            "+",
+            243,
+            9,
+            252
+          ]
+        ]
+      }
+    ],
+    "short_multiplicative_examples": [
+      {
+        "from": 20834777382,
+        "to": 7333841647968,
+        "multiplier": 352,
+        "residual": 9504,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [
+          [
+            "*",
+            11,
+            32,
+            352
+          ]
+        ],
+        "correction_recipe": []
+      },
+      {
+        "from": 3462616328,
+        "to": 13850465376,
+        "multiplier": 4,
+        "residual": 64,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 4,
+        "multiplier_recipe": [
+          [
+            "/",
+            32,
+            8,
+            4
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            8,
+            8,
+            64
+          ]
+        ]
+      },
+      {
+        "from": 1958436867077,
+        "to": 17625931803459,
+        "multiplier": 9,
+        "residual": -234,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 4,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "*",
+            9,
+            27,
+            243
+          ],
+          [
+            "-",
+            243,
+            9,
+            234
+          ]
+        ]
+      },
+      {
+        "from": 652812289337,
+        "to": 17625931803459,
+        "multiplier": 27,
+        "residual": -8640,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 4,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "+",
+            8,
+            32,
+            40
+          ],
+          [
+            "*",
+            40,
+            8,
+            320
+          ]
+        ]
+      },
+      {
+        "from": 3462616328,
+        "to": 6925233124,
+        "multiplier": 2,
+        "residual": 468,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "-",
+            11,
+            9,
+            2
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            9,
+            27,
+            243
+          ],
+          [
+            "-",
+            243,
+            9,
+            234
+          ]
+        ]
+      },
+      {
+        "from": 6925233124,
+        "to": 13850465376,
+        "multiplier": 2,
+        "residual": -872,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "-",
+            11,
+            9,
+            2
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            27,
+            32,
+            864
+          ],
+          [
+            "+",
+            864,
+            8,
+            872
+          ]
+        ]
+      },
+      {
+        "from": 20834777634,
+        "to": 7333841647968,
+        "multiplier": 352,
+        "residual": -79200,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "*",
+            11,
+            32,
+            352
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            8,
+            27,
+            216
+          ],
+          [
+            "+",
+            216,
+            9,
+            225
+          ]
+        ]
+      },
+      {
+        "from": 20834777692,
+        "to": 7333841647968,
+        "multiplier": 352,
+        "residual": -99616,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 5,
+        "multiplier_recipe": [
+          [
+            "*",
+            11,
+            32,
+            352
+          ]
+        ],
+        "correction_recipe": [
+          [
+            "*",
+            8,
+            32,
+            256
+          ],
+          [
+            "+",
+            256,
+            27,
+            283
+          ]
+        ]
+      }
+    ],
+    "shared_factor_examples": [
+      {
+        "factor": 33,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "/",
+            8,
+            8,
+            1
+          ],
+          [
+            "+",
+            1,
+            32,
+            33
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 419711072,
+            "quotient_recipe": null
+          },
+          {
+            "target": 20834777634,
+            "quotient": 631356898,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 222237625696,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 1589340898224,
+            "quotient_recipe": null
+          },
+          {
+            "target": 298988028377577,
+            "quotient": 9060243284169,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 176,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "+",
+            8,
+            8,
+            16
+          ],
+          [
+            "*",
+            16,
+            11,
+            176
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 78695826,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 41669554818,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 298001418417,
+            "quotient_recipe": null
+          },
+          {
+            "target": 95735802116240,
+            "quotient": 543953421115,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 88,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "*",
+            8,
+            11,
+            88
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 157391652,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 83339109636,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 596002836834,
+            "quotient_recipe": null
+          },
+          {
+            "target": 95735802116240,
+            "quotient": 1087906842230,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 66,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 209855536,
+            "quotient_recipe": null
+          },
+          {
+            "target": 20834777634,
+            "quotient": 315678449,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 111118812848,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 794670449112,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 44,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "+",
+            8,
+            9,
+            17
+          ],
+          [
+            "+",
+            17,
+            27,
+            44
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 314783304,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 166678219272,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 1192005673668,
+            "quotient_recipe": null
+          },
+          {
+            "target": 95735802116240,
+            "quotient": 2175813684460,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 919,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 44550021892013,
+            "quotient": 48476628827,
+            "quotient_recipe": null
+          },
+          {
+            "target": 95735802116240,
+            "quotient": 104173886960,
+            "quotient_recipe": null
+          },
+          {
+            "target": 550739865136779894,
+            "quotient": 599281681324026,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 528,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 26231942,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 13889851606,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 99333806139,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 264,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "*",
+            8,
+            32,
+            256
+          ],
+          [
+            "+",
+            256,
+            8,
+            264
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 13850465376,
+            "quotient": 52463884,
+            "quotient_recipe": null
+          },
+          {
+            "target": 7333841647968,
+            "quotient": 27779703212,
+            "quotient_recipe": null
+          },
+          {
+            "target": 52448249641392,
+            "quotient": 198667612278,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": []
+  },
+  {
+    "id": "scored_0667",
+    "starts": [
+      4,
+      11,
+      17,
+      25,
+      27
+    ],
+    "value_limit": 154815190961693731,
+    "target_count": 31,
+    "counts": {
+      "short_difference_links": 0,
+      "short_multiplicative_links": 2,
+      "shared_factors": 57,
+      "shared_anchors": 0
+    },
+    "short_difference_examples": [],
+    "short_multiplicative_examples": [
+      {
+        "from": 250207869288,
+        "to": 2752286562047,
+        "multiplier": 11,
+        "residual": -121,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 2,
+        "multiplier_recipe": [],
+        "correction_recipe": []
+      },
+      {
+        "from": 833492177687,
+        "to": 36673655819328,
+        "multiplier": 44,
+        "residual": 1100,
+        "mode": "before_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [
+          [
+            "*",
+            4,
+            11,
+            44
+          ]
+        ],
+        "correction_recipe": []
+      }
+    ],
+    "shared_factor_examples": [
+      {
+        "factor": 64,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "+",
+            4,
+            4,
+            8
+          ],
+          [
+            "*",
+            8,
+            8,
+            64
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 110323153152,
+            "quotient": 1723799268,
+            "quotient_recipe": null
+          },
+          {
+            "target": 36673655819328,
+            "quotient": 573025872177,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 4235248627984,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 6280018408598,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 8634061422855,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 13054436809810,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 745668483379281,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 32,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "+",
+            4,
+            4,
+            8
+          ],
+          [
+            "*",
+            8,
+            4,
+            32
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 110323153152,
+            "quotient": 3447598536,
+            "quotient_recipe": null
+          },
+          {
+            "target": 36673655819328,
+            "quotient": 1146051744354,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 8470497255968,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 12560036817196,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 17268122845710,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 26108873619620,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 1491336966758562,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 704,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "*",
+            27,
+            27,
+            729
+          ],
+          [
+            "-",
+            729,
+            25,
+            704
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 36673655819328,
+            "quotient": 52093261107,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 385022602544,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 570910764418,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 784914674805,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 1186766982710,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 67788043943571,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 352,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 36673655819328,
+            "quotient": 104186522214,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 770045205088,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 1141821528836,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 1569829349610,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 2373533965420,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 135576087887142,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 176,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "*",
+            4,
+            4,
+            16
+          ],
+          [
+            "*",
+            16,
+            11,
+            176
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 36673655819328,
+            "quotient": 208373044428,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 1540090410176,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 2283643057672,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 3139658699220,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 4747067930840,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 271152175774284,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 88,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "+",
+            4,
+            4,
+            8
+          ],
+          [
+            "*",
+            8,
+            11,
+            88
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 36673655819328,
+            "quotient": 416746088856,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 3080180820352,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 4567286115344,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 6279317398440,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 9494135861680,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 542304351548568,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 44,
+        "from_pair_gcd": false,
+        "factor_recipe": [
+          [
+            "*",
+            4,
+            11,
+            44
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 36673655819328,
+            "quotient": 833492177712,
+            "quotient_recipe": null
+          },
+          {
+            "target": 271055912190976,
+            "quotient": 6160361640704,
+            "quotient_recipe": null
+          },
+          {
+            "target": 401921178150272,
+            "quotient": 9134572230688,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 12558634796880,
+            "quotient_recipe": null
+          },
+          {
+            "target": 835483955827840,
+            "quotient": 18988271723360,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 1084608703097136,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 144,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "+",
+            11,
+            25,
+            36
+          ],
+          [
+            "*",
+            36,
+            4,
+            144
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 110323153152,
+            "quotient": 766133008,
+            "quotient_recipe": null
+          },
+          {
+            "target": 1540090500336,
+            "quotient": 10695072919,
+            "quotient_recipe": null
+          },
+          {
+            "target": 36673655819328,
+            "quotient": 254678165412,
+            "quotient_recipe": null
+          },
+          {
+            "target": 552579931062720,
+            "quotient": 3837360632380,
+            "quotient_recipe": null
+          },
+          {
+            "target": 47722782936273984,
+            "quotient": 331408214835236,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": []
+  },
+  {
+    "id": "scored_0810",
+    "starts": [
+      4,
+      7,
+      10,
+      13
+    ],
+    "value_limit": 192455053,
+    "target_count": 13,
+    "counts": {
+      "short_difference_links": 8,
+      "short_multiplicative_links": 1,
+      "shared_factors": 47,
+      "shared_anchors": 6
+    },
+    "short_difference_examples": [
+      {
+        "from": 151033,
+        "to": 151040,
+        "multiplier": 1,
+        "residual": 7,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 1,
+        "multiplier_recipe": [],
+        "correction_recipe": []
+      },
+      {
+        "from": 151033,
+        "to": 151034,
+        "multiplier": 1,
+        "residual": 1,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 2,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "/",
+            4,
+            4,
+            1
+          ]
+        ]
+      },
+      {
+        "from": 151034,
+        "to": 151040,
+        "multiplier": 1,
+        "residual": 6,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 2,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "-",
+            10,
+            4,
+            6
+          ]
+        ]
+      },
+      {
+        "from": 151040,
+        "to": 151052,
+        "multiplier": 1,
+        "residual": 12,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "+",
+            4,
+            4,
+            8
+          ],
+          [
+            "+",
+            8,
+            4,
+            12
+          ]
+        ]
+      },
+      {
+        "from": 151034,
+        "to": 151052,
+        "multiplier": 1,
+        "residual": 18,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "+",
+            4,
+            4,
+            8
+          ],
+          [
+            "+",
+            8,
+            10,
+            18
+          ]
+        ]
+      },
+      {
+        "from": 151033,
+        "to": 151052,
+        "multiplier": 1,
+        "residual": 19,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "-",
+            10,
+            4,
+            6
+          ],
+          [
+            "+",
+            6,
+            13,
+            19
+          ]
+        ]
+      },
+      {
+        "from": 151052,
+        "to": 151192,
+        "multiplier": 1,
+        "residual": 140,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "+",
+            4,
+            10,
+            14
+          ],
+          [
+            "*",
+            14,
+            10,
+            140
+          ]
+        ]
+      },
+      {
+        "from": 151033,
+        "to": 151192,
+        "multiplier": 1,
+        "residual": 159,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 3,
+        "multiplier_recipe": [],
+        "correction_recipe": [
+          [
+            "*",
+            13,
+            13,
+            169
+          ],
+          [
+            "-",
+            169,
+            10,
+            159
+          ]
+        ]
+      }
+    ],
+    "short_multiplicative_examples": [
+      {
+        "from": 140450,
+        "to": 2387650,
+        "multiplier": 17,
+        "residual": 0,
+        "mode": "after_multiply",
+        "standalone_step_upper_bound": 2,
+        "multiplier_recipe": [
+          [
+            "+",
+            4,
+            13,
+            17
+          ]
+        ],
+        "correction_recipe": []
+      }
+    ],
+    "shared_factor_examples": [
+      {
+        "factor": 2650,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 140450,
+            "quotient": 53,
+            "quotient_recipe": [
+              [
+                "*",
+                4,
+                10,
+                40
+              ],
+              [
+                "+",
+                40,
+                13,
+                53
+              ]
+            ]
+          },
+          {
+            "target": 704900,
+            "quotient": 266,
+            "quotient_recipe": null
+          },
+          {
+            "target": 2387650,
+            "quotient": 901,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 15048,
+            "quotient_recipe": null
+          },
+          {
+            "target": 74157600,
+            "quotient": 27984,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 32946,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 1325,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 140450,
+            "quotient": 106,
+            "quotient_recipe": null
+          },
+          {
+            "target": 704900,
+            "quotient": 532,
+            "quotient_recipe": null
+          },
+          {
+            "target": 2387650,
+            "quotient": 1802,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 30096,
+            "quotient_recipe": null
+          },
+          {
+            "target": 74157600,
+            "quotient": 55968,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 65892,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 530,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 140450,
+            "quotient": 265,
+            "quotient_recipe": null
+          },
+          {
+            "target": 704900,
+            "quotient": 1330,
+            "quotient_recipe": null
+          },
+          {
+            "target": 2387650,
+            "quotient": 4505,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 75240,
+            "quotient_recipe": null
+          },
+          {
+            "target": 74157600,
+            "quotient": 139920,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 164730,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 265,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 140450,
+            "quotient": 530,
+            "quotient_recipe": null
+          },
+          {
+            "target": 704900,
+            "quotient": 2660,
+            "quotient_recipe": null
+          },
+          {
+            "target": 2387650,
+            "quotient": 9010,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 150480,
+            "quotient_recipe": null
+          },
+          {
+            "target": 74157600,
+            "quotient": 279840,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 329460,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 5300,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 704900,
+            "quotient": 133,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 7524,
+            "quotient_recipe": null
+          },
+          {
+            "target": 74157600,
+            "quotient": 13992,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 16473,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 1060,
+        "from_pair_gcd": false,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 704900,
+            "quotient": 665,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 37620,
+            "quotient_recipe": null
+          },
+          {
+            "target": 74157600,
+            "quotient": 69960,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 82365,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 38,
+        "from_pair_gcd": true,
+        "factor_recipe": [
+          [
+            "*",
+            4,
+            7,
+            28
+          ],
+          [
+            "+",
+            28,
+            10,
+            38
+          ]
+        ],
+        "exact_targets": [
+          {
+            "target": 324862,
+            "quotient": 8549,
+            "quotient_recipe": null
+          },
+          {
+            "target": 704900,
+            "quotient": 18550,
+            "quotient_recipe": null
+          },
+          {
+            "target": 39877200,
+            "quotient": 1049400,
+            "quotient_recipe": null
+          },
+          {
+            "target": 87306900,
+            "quotient": 2297550,
+            "quotient_recipe": null
+          }
+        ]
+      },
+      {
+        "factor": 140450,
+        "from_pair_gcd": true,
+        "factor_recipe": null,
+        "exact_targets": [
+          {
+            "target": 140450,
+            "quotient": 1,
+            "quotient_recipe": [
+              [
+                "/",
+                4,
+                4,
+                1
+              ]
+            ]
+          },
+          {
+            "target": 2387650,
+            "quotient": 17,
+            "quotient_recipe": [
+              [
+                "+",
+                4,
+                13,
+                17
+              ]
+            ]
+          },
+          {
+            "target": 74157600,
+            "quotient": 528,
+            "quotient_recipe": null
+          }
+        ]
+      }
+    ],
+    "shared_anchor_examples": [
+      {
+        "anchor": 151050,
+        "is_target": false,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [
+          [
+            2650,
+            57
+          ],
+          [
+            1325,
+            114
+          ],
+          [
+            50350,
+            3
+          ],
+          [
+            25175,
+            6
+          ],
+          [
+            10070,
+            15
+          ],
+          [
+            7950,
+            19
+          ],
+          [
+            3975,
+            38
+          ],
+          [
+            1590,
+            95
+          ],
+          [
+            75525,
+            2
+          ],
+          [
+            30210,
+            5
+          ]
+        ],
+        "exact_multiples": [
+          39877200,
+          87306900
+        ],
+        "nearby_targets": [
+          {
+            "target": 151033,
+            "residual": -17,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                13,
+                17
+              ]
+            ]
+          },
+          {
+            "target": 151034,
+            "residual": -16,
+            "correction_recipe": [
+              [
+                "*",
+                4,
+                4,
+                16
+              ]
+            ]
+          },
+          {
+            "target": 151040,
+            "residual": -10,
+            "correction_recipe": []
+          },
+          {
+            "target": 151052,
+            "residual": 2,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                4,
+                8
+              ],
+              [
+                "/",
+                8,
+                4,
+                2
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": 151033,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 151034,
+            "residual": 1,
+            "correction_recipe": [
+              [
+                "/",
+                4,
+                4,
+                1
+              ]
+            ]
+          },
+          {
+            "target": 151040,
+            "residual": 7,
+            "correction_recipe": []
+          },
+          {
+            "target": 151052,
+            "residual": 19,
+            "correction_recipe": [
+              [
+                "-",
+                10,
+                4,
+                6
+              ],
+              [
+                "+",
+                6,
+                13,
+                19
+              ]
+            ]
+          },
+          {
+            "target": 151192,
+            "residual": 159,
+            "correction_recipe": [
+              [
+                "*",
+                13,
+                13,
+                169
+              ],
+              [
+                "-",
+                169,
+                10,
+                159
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": 151052,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 151033,
+            "residual": -19,
+            "correction_recipe": [
+              [
+                "-",
+                10,
+                4,
+                6
+              ],
+              [
+                "+",
+                6,
+                13,
+                19
+              ]
+            ]
+          },
+          {
+            "target": 151034,
+            "residual": -18,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                4,
+                8
+              ],
+              [
+                "+",
+                8,
+                10,
+                18
+              ]
+            ]
+          },
+          {
+            "target": 151040,
+            "residual": -12,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                4,
+                8
+              ],
+              [
+                "+",
+                8,
+                4,
+                12
+              ]
+            ]
+          },
+          {
+            "target": 151192,
+            "residual": 140,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                10,
+                14
+              ],
+              [
+                "*",
+                14,
+                10,
+                140
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": 151040,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 151033,
+            "residual": -7,
+            "correction_recipe": []
+          },
+          {
+            "target": 151034,
+            "residual": -6,
+            "correction_recipe": [
+              [
+                "-",
+                10,
+                4,
+                6
+              ]
+            ]
+          },
+          {
+            "target": 151052,
+            "residual": 12,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                4,
+                8
+              ],
+              [
+                "+",
+                8,
+                4,
+                12
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": 151034,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 151033,
+            "residual": -1,
+            "correction_recipe": [
+              [
+                "/",
+                4,
+                4,
+                1
+              ]
+            ]
+          },
+          {
+            "target": 151040,
+            "residual": 6,
+            "correction_recipe": [
+              [
+                "-",
+                10,
+                4,
+                6
+              ]
+            ]
+          },
+          {
+            "target": 151052,
+            "residual": 18,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                4,
+                8
+              ],
+              [
+                "+",
+                8,
+                10,
+                18
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "anchor": 151192,
+        "is_target": true,
+        "initial_recipe": null,
+        "is_square": false,
+        "factor_paths": [],
+        "exact_multiples": [],
+        "nearby_targets": [
+          {
+            "target": 151033,
+            "residual": -159,
+            "correction_recipe": [
+              [
+                "*",
+                13,
+                13,
+                169
+              ],
+              [
+                "-",
+                169,
+                10,
+                159
+              ]
+            ]
+          },
+          {
+            "target": 151052,
+            "residual": -140,
+            "correction_recipe": [
+              [
+                "+",
+                4,
+                10,
+                14
+              ],
+              [
+                "*",
+                14,
+                10,
+                140
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
