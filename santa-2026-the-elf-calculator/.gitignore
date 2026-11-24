@@ -10,3 +10,15 @@ __pycache__/
 /experiments/square_anchor_analysis.csv
 /experiments/deep_ten_best.csv
 /experiments/recursive_window_programs.csv
+# Generated portfolio programs contain third-party candidate rows.
+/experiments/pilot_*/candidate.csv
+/experiments/pilot_*/wins.csv
+# Local experiment outputs can contain full puzzle rows or third-party programs.
+/experiments/pilot_*/
+/experiments/factor_12_cases.json
+/experiments/factor_research_results.json
+/experiments/gcd_known_sample_20*.json
+/experiments/initial_gcd_50_results.json
+/experiments/product_anchor_study.json
+/experiments/graph_scored_*.dot
+/experiments/graph_scored_*_report.json

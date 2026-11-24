@@ -12,7 +12,7 @@
 - 相邻目标涨幅定义为 `(较大目标 - 较小目标) / 较小目标`。25,902 对相邻目标的中位涨幅为 16.95%；按题取中位数后再跨题取中位数为 25.71%。
 - 练习集标签为 `independent`、`shared`、`multiplicative`、`mixed`、`tiny`。在样本里共享题常见接近的目标组，但类别标签不是计分题可用输入，也不保证某种方法有效。
 
-逐题与逐对统计可用 `experiments/analyze_puzzle_distributions.py` 在本地重新生成。这些统计由公开镜像数据生成，官方文件尚未在本项目中比对。
+逐题与逐对统计可用 `experiments/analyze_puzzle_distributions.py` 在本地重新生成。这些统计最初由公开镜像数据生成；本地随后下载官方 CSV，统一换行为 LF 后文件哈希与镜像记录一致。
 
 ## 求解实验
 
@@ -45,3 +45,8 @@
 从 Hansen0223 固定提交抽取的 30 题均可回放。该样本的 30 题都存在至少两个目标依赖的非目标中间值，目标首次出现顺序都不是升序。另一个不重叠的 30 题样本中，前五步均有后续直接使用，最后一步均首次命中新目标。两个样本是固定随机种子抽样，不足以断言全部题目遵循同一策略。公开结果只能说明最终程序的计算路径，无法单凭输出断定其生成算法是否具有随机性。
 
 公开程序的来源、作者、许可证及其他公开程序的关联详见 [固定版本 README](https://github.com/Hansen0223/Santa_2026/blob/0652a700782bf452d35255b9b4993f547412cfcc/README.md) 和 [NOTICE](https://github.com/Hansen0223/Santa_2026/blob/0652a700782bf452d35255b9b4993f547412cfcc/generative/NOTICE.md)。该版本 README 的 139,429 与实际 CSV 本地回放的 139,406 不一致，后者为本项目记录的文件结果。
+
+
+## 后续研究（本地回放）
+
+官方题目已下载到本地，原始数据未纳入仓库。固定来源的第三方公开程序逐题择短后，本地回放为 132,477 步，不是本项目独立成绩。因子与公约数研究、乘积锚点和保留多条计算图的探索分别见 [共享因子](FACTOR_SHARED_STUDY.md)、[50 题抽样](INITIAL_GCD_50_STUDY.md)和[多路径实验](DIVERSE_PRODUCT_BEAM_STUDY.md)。当前有限样本未发现比该组合更短的新方案；汇总指标见 [research_summary.json](experiments/research_summary.json)。

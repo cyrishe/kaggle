@@ -14,7 +14,7 @@ kaggle competitions download -c santa-2026 -p data
 unzip data/santa-2026.zip -d data
 ```
 
-需要 `data/puzzles.csv`、`data/practice_puzzles.csv` 和 `data/sample_submission.csv`。仓库不包含竞赛原始数据。此前公开镜像文件的 SHA-256 仅供核对，不代表已从 Kaggle 官方下载核验：
+需要 `data/puzzles.csv`、`data/practice_puzzles.csv` 和 `data/sample_submission.csv`。仓库不包含竞赛原始数据。本地从 Kaggle 下载的官方 CSV 使用 CRLF 换行；将换行规范化为 LF 后，SHA-256 与此前记录的公开镜像一致：
 
 ```text
 puzzles.csv            41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85
@@ -61,3 +61,24 @@ python3 experiments/review_initial_final_30.py
 ```
 
 原仓库说明其多个求解器和候选含其他作者贡献，代码使用和再分发前请检查各文件来源与许可；[来源及许可证记录](https://github.com/Hansen0223/Santa_2026/blob/0652a700782bf452d35255b9b4993f547412cfcc/generative/NOTICE.md)。该第三方完整提交不包含在本仓库。
+
+## 近期研究与复现
+
+- [开源基线调研](OPEN_SOURCE_RESEARCH.md)、[优化试验](OPTIMIZATION_RESEARCH.md)
+- [因子研究](FACTOR_RESEARCH.md)、[共享复合因子](FACTOR_SHARED_STUDY.md)
+- [20 题公因数抽样](GCD_SAMPLE_STUDY.md)、[50 题初值分析](INITIAL_GCD_50_STUDY.md)
+- [乘积锚点分析](PRODUCT_ANCHOR_STUDY.md)、[多路径搜索](DIVERSE_PRODUCT_BEAM_STUDY.md)
+- [不含原始题目及完整候选程序的实验汇总](experiments/research_summary.json)
+
+为遵守“数据不入库”，`data/`、`external/`、包含逐题原始数值或完整第三方程序的详细轨迹及 `experiments/pilot_*/` 均被忽略；研究文档中提到的本地详细结果需要运行对应脚本自行生成。复现多路径等图实验需要 Python 3.12+ 和固定版本第三方仓库，素因子分析另需 SymPy。第三方代码及程序不包含在本仓库，并须遵循各自来源和许可。
+
+```bash
+git clone https://github.com/Hansen0223/Santa_2026.git external/hansen_repository
+git -C external/hansen_repository checkout 0652a700782bf452d35255b9b4993f547412cfcc
+# 从 Asterios 公开数据集 v196 获取 best_programs.csv 到 external/asterios_v196/
+python3 experiments/merge_public.py external/asterios_v196/best_programs.csv external/hansen_repository/public-assisted/submission.csv external/hansen_repository/submission.csv --output external/asterios_v196/merged_132477.csv
+python3.13 tests/test_factor_joint.py
+python3.13 tests/test_diverse_product_beam.py
+```
+
+[Asterios v196 公开数据集](https://www.kaggle.com/datasets/asteriospanoras/santa-2026-elf-programs-and-experiments/versions/196)的程序来自多个贡献者；逐题署名和许可证需随来源保留。132,477 是多份公开程序逐题择短的本地回放结果，不能归为本项目原创，亦不代表 Kaggle 官方成绩。

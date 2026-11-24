@@ -1,0 +1,1752 @@
+{
+  "description": "Aggregate experiment results; raw competition data, detailed traces and third-party program rows are local-only.",
+  "gcd": {
+    "initial_gcd_50": {
+      "seed": 20261124,
+      "sample_size": 50,
+      "total_targets": 1326,
+      "summary": {
+        "10": {
+          "initial_all": 0,
+          "initial_some": 43,
+          "initial_none": 7,
+          "one_step_all": 0,
+          "one_step_some": 49,
+          "one_step_none": 1,
+          "initial_any": 43,
+          "one_step_any": 49,
+          "initial_shared": 38,
+          "one_step_shared": 47,
+          "initial_known_exact_shared": 29,
+          "one_step_known_exact_shared": 35,
+          "targets_initial": 329,
+          "targets_one_step": 648,
+          "initial_none_to_one_step_any": 6
+        },
+        "100": {
+          "initial_all": 0,
+          "initial_some": 4,
+          "initial_none": 46,
+          "one_step_all": 0,
+          "one_step_some": 38,
+          "one_step_none": 12,
+          "initial_any": 4,
+          "one_step_any": 38,
+          "initial_shared": 1,
+          "one_step_shared": 18,
+          "initial_known_exact_shared": 1,
+          "one_step_known_exact_shared": 12,
+          "targets_initial": 5,
+          "targets_one_step": 148,
+          "initial_none_to_one_step_any": 34
+        },
+        "1000": {
+          "initial_all": 0,
+          "initial_some": 0,
+          "initial_none": 50,
+          "one_step_all": 0,
+          "one_step_some": 3,
+          "one_step_none": 47,
+          "initial_any": 0,
+          "one_step_any": 3,
+          "initial_shared": 0,
+          "one_step_shared": 0,
+          "initial_known_exact_shared": 0,
+          "one_step_known_exact_shared": 0,
+          "targets_initial": 0,
+          "targets_one_step": 3,
+          "initial_none_to_one_step_any": 3
+        },
+        "10000": {
+          "initial_all": 0,
+          "initial_some": 0,
+          "initial_none": 50,
+          "one_step_all": 0,
+          "one_step_some": 0,
+          "one_step_none": 50,
+          "initial_any": 0,
+          "one_step_any": 0,
+          "initial_shared": 0,
+          "one_step_shared": 0,
+          "initial_known_exact_shared": 0,
+          "one_step_known_exact_shared": 0,
+          "targets_initial": 0,
+          "targets_one_step": 0,
+          "initial_none_to_one_step_any": 0
+        }
+      },
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428"
+    },
+    "runtime_gcd_20": {
+      "seed": 20261124,
+      "sample_size": 20,
+      "totals": {
+        "10": {
+          "initial_any": 17,
+          "initial_shared": 15,
+          "runtime_any": 20,
+          "runtime_shared": 20,
+          "runtime_shared_exact_value": 17,
+          "targets_initial": 130,
+          "targets_runtime": 403
+        },
+        "100": {
+          "initial_any": 3,
+          "initial_shared": 1,
+          "runtime_any": 20,
+          "runtime_shared": 15,
+          "runtime_shared_exact_value": 11,
+          "targets_initial": 4,
+          "targets_runtime": 247
+        },
+        "1000": {
+          "initial_any": 0,
+          "initial_shared": 0,
+          "runtime_any": 19,
+          "runtime_shared": 8,
+          "runtime_shared_exact_value": 7,
+          "targets_initial": 0,
+          "targets_runtime": 134
+        },
+        "10000": {
+          "initial_any": 0,
+          "initial_shared": 0,
+          "runtime_any": 19,
+          "runtime_shared": 4,
+          "runtime_shared_exact_value": 3,
+          "targets_initial": 0,
+          "targets_runtime": 110
+        }
+      },
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428"
+    },
+    "runtime_gcd_20_nonsmooth": {
+      "seed": 20261124,
+      "sample_size": 20,
+      "totals": {
+        "10": {
+          "initial_any": 15,
+          "initial_shared": 11,
+          "runtime_any": 20,
+          "runtime_shared": 20,
+          "runtime_shared_exact_value": 17,
+          "targets_initial": 81,
+          "targets_runtime": 348
+        },
+        "100": {
+          "initial_any": 3,
+          "initial_shared": 1,
+          "runtime_any": 20,
+          "runtime_shared": 14,
+          "runtime_shared_exact_value": 11,
+          "targets_initial": 4,
+          "targets_runtime": 237
+        },
+        "1000": {
+          "initial_any": 0,
+          "initial_shared": 0,
+          "runtime_any": 19,
+          "runtime_shared": 8,
+          "runtime_shared_exact_value": 7,
+          "targets_initial": 0,
+          "targets_runtime": 134
+        },
+        "10000": {
+          "initial_any": 0,
+          "initial_shared": 0,
+          "runtime_any": 19,
+          "runtime_shared": 4,
+          "runtime_shared_exact_value": 3,
+          "targets_initial": 0,
+          "targets_runtime": 110
+        }
+      },
+      "non_smooth": true,
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428"
+    }
+  },
+  "search": {
+    "pilot_48": {
+      "rounds_per_arm": 600,
+      "score": 133610,
+      "baseline_sha256": "b7964c329818eadc9fab3a75d5d9fcce813a9c15fe5f799dcc580619022a8f60",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 48,
+      "rows": [
+        {
+          "id": "scored_0149",
+          "base": 16,
+          "single": 16,
+          "multi": 16,
+          "best": 16
+        },
+        {
+          "id": "scored_0130",
+          "base": 22,
+          "single": 22,
+          "multi": 22,
+          "best": 22
+        },
+        {
+          "id": "scored_0134",
+          "base": 26,
+          "single": 26,
+          "multi": 26,
+          "best": 26
+        },
+        {
+          "id": "scored_0720",
+          "base": 29,
+          "single": 29,
+          "multi": 29,
+          "best": 29
+        },
+        {
+          "id": "scored_0962",
+          "base": 31,
+          "single": 31,
+          "multi": 30,
+          "best": 30
+        },
+        {
+          "id": "scored_0880",
+          "base": 36,
+          "single": 36,
+          "multi": 36,
+          "best": 36
+        },
+        {
+          "id": "scored_0121",
+          "base": 45,
+          "single": 45,
+          "multi": 45,
+          "best": 45
+        },
+        {
+          "id": "scored_0055",
+          "base": 80,
+          "single": 80,
+          "multi": 80,
+          "best": 80
+        },
+        {
+          "id": "scored_0519",
+          "base": 87,
+          "single": 87,
+          "multi": 87,
+          "best": 87
+        },
+        {
+          "id": "scored_0806",
+          "base": 91,
+          "single": 91,
+          "multi": 91,
+          "best": 91
+        },
+        {
+          "id": "scored_0686",
+          "base": 92,
+          "single": 92,
+          "multi": 92,
+          "best": 92
+        },
+        {
+          "id": "scored_0554",
+          "base": 96,
+          "single": 96,
+          "multi": 96,
+          "best": 96
+        },
+        {
+          "id": "scored_0132",
+          "base": 101,
+          "single": 101,
+          "multi": 101,
+          "best": 101
+        },
+        {
+          "id": "scored_0787",
+          "base": 101,
+          "single": 101,
+          "multi": 101,
+          "best": 101
+        },
+        {
+          "id": "scored_0961",
+          "base": 104,
+          "single": 104,
+          "multi": 104,
+          "best": 104
+        },
+        {
+          "id": "scored_0118",
+          "base": 107,
+          "single": 107,
+          "multi": 107,
+          "best": 107
+        },
+        {
+          "id": "scored_0052",
+          "base": 108,
+          "single": 108,
+          "multi": 108,
+          "best": 108
+        },
+        {
+          "id": "scored_0078",
+          "base": 109,
+          "single": 109,
+          "multi": 109,
+          "best": 109
+        },
+        {
+          "id": "scored_0109",
+          "base": 112,
+          "single": 112,
+          "multi": 112,
+          "best": 112
+        },
+        {
+          "id": "scored_0627",
+          "base": 112,
+          "single": 112,
+          "multi": 112,
+          "best": 112
+        },
+        {
+          "id": "scored_0184",
+          "base": 114,
+          "single": 114,
+          "multi": 114,
+          "best": 114
+        },
+        {
+          "id": "scored_0775",
+          "base": 115,
+          "single": 115,
+          "multi": 115,
+          "best": 115
+        },
+        {
+          "id": "scored_0603",
+          "base": 117,
+          "single": 117,
+          "multi": 117,
+          "best": 117
+        },
+        {
+          "id": "scored_0367",
+          "base": 118,
+          "single": 118,
+          "multi": 118,
+          "best": 118
+        },
+        {
+          "id": "scored_0330",
+          "base": 121,
+          "single": 121,
+          "multi": 121,
+          "best": 121
+        },
+        {
+          "id": "scored_0326",
+          "base": 122,
+          "single": 122,
+          "multi": 122,
+          "best": 122
+        },
+        {
+          "id": "scored_0205",
+          "base": 130,
+          "single": 130,
+          "multi": 130,
+          "best": 130
+        },
+        {
+          "id": "scored_0185",
+          "base": 140,
+          "single": 140,
+          "multi": 140,
+          "best": 140
+        },
+        {
+          "id": "scored_0488",
+          "base": 142,
+          "single": 142,
+          "multi": 142,
+          "best": 142
+        },
+        {
+          "id": "scored_0513",
+          "base": 149,
+          "single": 149,
+          "multi": 149,
+          "best": 149
+        },
+        {
+          "id": "scored_0747",
+          "base": 156,
+          "single": 156,
+          "multi": 156,
+          "best": 156
+        },
+        {
+          "id": "scored_0688",
+          "base": 161,
+          "single": 161,
+          "multi": 161,
+          "best": 161
+        },
+        {
+          "id": "scored_0034",
+          "base": 166,
+          "single": 166,
+          "multi": 166,
+          "best": 166
+        },
+        {
+          "id": "scored_0497",
+          "base": 170,
+          "single": 170,
+          "multi": 170,
+          "best": 170
+        },
+        {
+          "id": "scored_0520",
+          "base": 172,
+          "single": 172,
+          "multi": 172,
+          "best": 172
+        },
+        {
+          "id": "scored_0531",
+          "base": 181,
+          "single": 181,
+          "multi": 181,
+          "best": 181
+        },
+        {
+          "id": "scored_0706",
+          "base": 181,
+          "single": 181,
+          "multi": 181,
+          "best": 181
+        },
+        {
+          "id": "scored_0915",
+          "base": 191,
+          "single": 191,
+          "multi": 191,
+          "best": 191
+        },
+        {
+          "id": "scored_0645",
+          "base": 195,
+          "single": 195,
+          "multi": 195,
+          "best": 195
+        },
+        {
+          "id": "scored_0508",
+          "base": 201,
+          "single": 201,
+          "multi": 201,
+          "best": 201
+        },
+        {
+          "id": "scored_0902",
+          "base": 209,
+          "single": 209,
+          "multi": 209,
+          "best": 209
+        },
+        {
+          "id": "scored_0790",
+          "base": 214,
+          "single": 214,
+          "multi": 214,
+          "best": 214
+        },
+        {
+          "id": "scored_0263",
+          "base": 221,
+          "single": 221,
+          "multi": 221,
+          "best": 221
+        },
+        {
+          "id": "scored_0334",
+          "base": 226,
+          "single": 226,
+          "multi": 226,
+          "best": 226
+        },
+        {
+          "id": "scored_0357",
+          "base": 230,
+          "single": 230,
+          "multi": 230,
+          "best": 230
+        },
+        {
+          "id": "scored_0165",
+          "base": 241,
+          "single": 241,
+          "multi": 241,
+          "best": 241
+        },
+        {
+          "id": "scored_0094",
+          "base": 252,
+          "single": 252,
+          "multi": 252,
+          "best": 252
+        },
+        {
+          "id": "scored_0744",
+          "base": 274,
+          "single": 274,
+          "multi": 274,
+          "best": 274
+        }
+      ]
+    },
+    "pilot_v196_24": {
+      "rounds_per_arm": 400,
+      "score": 132575,
+      "baseline_sha256": "cf4a0065ff5f2aa7b70734cb1ac36c49539c8213abc2593f6e816b674f328aea",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 24,
+      "rows": [
+        {
+          "id": "scored_0818",
+          "base": 21,
+          "single": 21,
+          "multi": 21,
+          "best": 21
+        },
+        {
+          "id": "scored_0611",
+          "base": 26,
+          "single": 26,
+          "multi": 26,
+          "best": 26
+        },
+        {
+          "id": "scored_0300",
+          "base": 37,
+          "single": 37,
+          "multi": 37,
+          "best": 37
+        },
+        {
+          "id": "scored_0966",
+          "base": 81,
+          "single": 81,
+          "multi": 81,
+          "best": 81
+        },
+        {
+          "id": "scored_0943",
+          "base": 88,
+          "single": 88,
+          "multi": 88,
+          "best": 88
+        },
+        {
+          "id": "scored_0153",
+          "base": 94,
+          "single": 94,
+          "multi": 94,
+          "best": 94
+        },
+        {
+          "id": "scored_0713",
+          "base": 97,
+          "single": 97,
+          "multi": 97,
+          "best": 97
+        },
+        {
+          "id": "scored_0830",
+          "base": 102,
+          "single": 102,
+          "multi": 102,
+          "best": 102
+        },
+        {
+          "id": "scored_0809",
+          "base": 108,
+          "single": 108,
+          "multi": 108,
+          "best": 108
+        },
+        {
+          "id": "scored_0641",
+          "base": 110,
+          "single": 110,
+          "multi": 110,
+          "best": 110
+        },
+        {
+          "id": "scored_0746",
+          "base": 112,
+          "single": 112,
+          "multi": 112,
+          "best": 112
+        },
+        {
+          "id": "scored_0018",
+          "base": 117,
+          "single": 117,
+          "multi": 117,
+          "best": 117
+        },
+        {
+          "id": "scored_0416",
+          "base": 123,
+          "single": 123,
+          "multi": 123,
+          "best": 123
+        },
+        {
+          "id": "scored_0803",
+          "base": 128,
+          "single": 128,
+          "multi": 119,
+          "best": 119
+        },
+        {
+          "id": "scored_0708",
+          "base": 145,
+          "single": 145,
+          "multi": 145,
+          "best": 145
+        },
+        {
+          "id": "scored_0042",
+          "base": 161,
+          "single": 161,
+          "multi": 161,
+          "best": 161
+        },
+        {
+          "id": "scored_0634",
+          "base": 164,
+          "single": 164,
+          "multi": 164,
+          "best": 164
+        },
+        {
+          "id": "scored_0839",
+          "base": 171,
+          "single": 171,
+          "multi": 171,
+          "best": 171
+        },
+        {
+          "id": "scored_0504",
+          "base": 186,
+          "single": 186,
+          "multi": 186,
+          "best": 186
+        },
+        {
+          "id": "scored_0054",
+          "base": 193,
+          "single": 193,
+          "multi": 193,
+          "best": 193
+        },
+        {
+          "id": "scored_0647",
+          "base": 207,
+          "single": 207,
+          "multi": 207,
+          "best": 207
+        },
+        {
+          "id": "scored_0155",
+          "base": 220,
+          "single": 220,
+          "multi": 220,
+          "best": 220
+        },
+        {
+          "id": "scored_0511",
+          "base": 241,
+          "single": 241,
+          "multi": 241,
+          "best": 241
+        },
+        {
+          "id": "scored_0728",
+          "base": 255,
+          "single": 255,
+          "multi": 255,
+          "best": 255
+        }
+      ]
+    },
+    "pilot_132477_16": {
+      "rounds_per_arm": 400,
+      "score": 132477,
+      "baseline_sha256": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 16,
+      "rows": [
+        {
+          "id": "scored_0473",
+          "base": 24,
+          "single": 24,
+          "multi": 24,
+          "best": 24
+        },
+        {
+          "id": "scored_0910",
+          "base": 31,
+          "single": 31,
+          "multi": 31,
+          "best": 31
+        },
+        {
+          "id": "scored_0510",
+          "base": 85,
+          "single": 85,
+          "multi": 85,
+          "best": 85
+        },
+        {
+          "id": "scored_0138",
+          "base": 96,
+          "single": 96,
+          "multi": 96,
+          "best": 96
+        },
+        {
+          "id": "scored_0879",
+          "base": 101,
+          "single": 101,
+          "multi": 101,
+          "best": 101
+        },
+        {
+          "id": "scored_0039",
+          "base": 107,
+          "single": 107,
+          "multi": 107,
+          "best": 107
+        },
+        {
+          "id": "scored_0942",
+          "base": 109,
+          "single": 109,
+          "multi": 109,
+          "best": 109
+        },
+        {
+          "id": "scored_0427",
+          "base": 114,
+          "single": 114,
+          "multi": 114,
+          "best": 114
+        },
+        {
+          "id": "scored_0081",
+          "base": 126,
+          "single": 126,
+          "multi": 126,
+          "best": 126
+        },
+        {
+          "id": "scored_0332",
+          "base": 145,
+          "single": 145,
+          "multi": 145,
+          "best": 145
+        },
+        {
+          "id": "scored_0049",
+          "base": 155,
+          "single": 155,
+          "multi": 155,
+          "best": 155
+        },
+        {
+          "id": "scored_0013",
+          "base": 176,
+          "single": 176,
+          "multi": 176,
+          "best": 176
+        },
+        {
+          "id": "scored_0759",
+          "base": 196,
+          "single": 196,
+          "multi": 196,
+          "best": 196
+        },
+        {
+          "id": "scored_0254",
+          "base": 207,
+          "single": 207,
+          "multi": 207,
+          "best": 207
+        },
+        {
+          "id": "scored_0677",
+          "base": 221,
+          "single": 221,
+          "multi": 221,
+          "best": 221
+        },
+        {
+          "id": "scored_0405",
+          "base": 269,
+          "single": 269,
+          "multi": 269,
+          "best": 269
+        }
+      ]
+    },
+    "pilot_product_beam1": {
+      "width": 1,
+      "slack": 0,
+      "per_target": 300,
+      "baseline_sha256": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 4,
+      "rows": [
+        {
+          "id": "scored_0901",
+          "before": 17,
+          "after": 17,
+          "counts": {
+            "targets": 6,
+            "generated": 221,
+            "examined": 221,
+            "cycle_or_missing": 13,
+            "distinct_graphs": 30,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0810",
+          "before": 29,
+          "after": 29,
+          "counts": {
+            "targets": 13,
+            "generated": 945,
+            "examined": 945,
+            "cycle_or_missing": 41,
+            "distinct_graphs": 200,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 1,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0654",
+          "before": 30,
+          "after": 30,
+          "counts": {
+            "targets": 12,
+            "generated": 818,
+            "examined": 818,
+            "cycle_or_missing": 24,
+            "distinct_graphs": 187,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0556",
+          "before": 25,
+          "after": 25,
+          "counts": {
+            "targets": 8,
+            "generated": 487,
+            "examined": 487,
+            "cycle_or_missing": 14,
+            "distinct_graphs": 73,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        }
+      ]
+    },
+    "pilot_product_beam5": {
+      "width": 5,
+      "slack": 2,
+      "per_target": 300,
+      "baseline_sha256": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 4,
+      "rows": [
+        {
+          "id": "scored_0901",
+          "before": 17,
+          "after": 17,
+          "counts": {
+            "targets": 6,
+            "generated": 963,
+            "examined": 963,
+            "cycle_or_missing": 51,
+            "distinct_graphs": 169,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0810",
+          "before": 29,
+          "after": 29,
+          "counts": {
+            "targets": 13,
+            "generated": 4739,
+            "examined": 4739,
+            "cycle_or_missing": 177,
+            "distinct_graphs": 1042,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 5,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0654",
+          "before": 30,
+          "after": 30,
+          "counts": {
+            "targets": 12,
+            "generated": 4161,
+            "examined": 4161,
+            "cycle_or_missing": 116,
+            "distinct_graphs": 1022,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0556",
+          "before": 25,
+          "after": 25,
+          "counts": {
+            "targets": 8,
+            "generated": 2272,
+            "examined": 2272,
+            "cycle_or_missing": 76,
+            "distinct_graphs": 325,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        }
+      ]
+    },
+    "pilot_product_random12_beam1": {
+      "width": 1,
+      "slack": 0,
+      "per_target": 300,
+      "baseline_sha256": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 12,
+      "rows": [
+        {
+          "id": "scored_0005",
+          "before": 46,
+          "after": 46,
+          "counts": {
+            "targets": 16,
+            "generated": 1278,
+            "examined": 1278,
+            "cycle_or_missing": 19,
+            "distinct_graphs": 38,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0065",
+          "before": 34,
+          "after": 34,
+          "counts": {
+            "targets": 12,
+            "generated": 810,
+            "examined": 810,
+            "cycle_or_missing": 26,
+            "distinct_graphs": 52,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 1,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0091",
+          "before": 23,
+          "after": 23,
+          "counts": {
+            "targets": 8,
+            "generated": 408,
+            "examined": 408,
+            "cycle_or_missing": 15,
+            "distinct_graphs": 66,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 1,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0121",
+          "before": 43,
+          "after": 43,
+          "counts": {
+            "targets": 15,
+            "generated": 1259,
+            "examined": 1259,
+            "cycle_or_missing": 7,
+            "distinct_graphs": 30,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0250",
+          "before": 20,
+          "after": 20,
+          "counts": {
+            "targets": 6,
+            "generated": 264,
+            "examined": 264,
+            "cycle_or_missing": 12,
+            "distinct_graphs": 15,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0282",
+          "before": 42,
+          "after": 42,
+          "counts": {
+            "targets": 13,
+            "generated": 1118,
+            "examined": 1118,
+            "cycle_or_missing": 33,
+            "distinct_graphs": 94,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0296",
+          "before": 38,
+          "after": 38,
+          "counts": {
+            "targets": 11,
+            "generated": 861,
+            "examined": 861,
+            "cycle_or_missing": 14,
+            "distinct_graphs": 63,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0455",
+          "before": 25,
+          "after": 25,
+          "counts": {
+            "targets": 7,
+            "generated": 364,
+            "examined": 364,
+            "cycle_or_missing": 11,
+            "distinct_graphs": 25,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0874",
+          "before": 27,
+          "after": 27,
+          "counts": {
+            "targets": 13,
+            "generated": 849,
+            "examined": 849,
+            "cycle_or_missing": 79,
+            "distinct_graphs": 148,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 1,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0892",
+          "before": 16,
+          "after": 16,
+          "counts": {
+            "targets": 8,
+            "generated": 277,
+            "examined": 277,
+            "cycle_or_missing": 24,
+            "distinct_graphs": 52,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0913",
+          "before": 25,
+          "after": 25,
+          "counts": {
+            "targets": 11,
+            "generated": 870,
+            "examined": 870,
+            "cycle_or_missing": 102,
+            "distinct_graphs": 297,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 0,
+            "compiled": 1
+          }
+        },
+        {
+          "id": "scored_0945",
+          "before": 28,
+          "after": 28,
+          "counts": {
+            "targets": 13,
+            "generated": 1059,
+            "examined": 1059,
+            "cycle_or_missing": 89,
+            "distinct_graphs": 304,
+            "max_retained": 1,
+            "nonbaseline_graphs_final": 1,
+            "compiled": 1
+          }
+        }
+      ]
+    },
+    "pilot_product_random12_beam5": {
+      "width": 5,
+      "slack": 2,
+      "per_target": 300,
+      "baseline_sha256": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "puzzles_sha256": "b0c70d849eca078a0e1cf9a4f7b47fd40b7435663f6f84de6725f84724500428",
+      "puzzles": 12,
+      "rows": [
+        {
+          "id": "scored_0005",
+          "before": 46,
+          "after": 46,
+          "counts": {
+            "targets": 16,
+            "generated": 5496,
+            "examined": 5496,
+            "cycle_or_missing": 69,
+            "distinct_graphs": 177,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0065",
+          "before": 34,
+          "after": 34,
+          "counts": {
+            "targets": 12,
+            "generated": 3632,
+            "examined": 3632,
+            "cycle_or_missing": 110,
+            "distinct_graphs": 253,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 5,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0091",
+          "before": 23,
+          "after": 23,
+          "counts": {
+            "targets": 8,
+            "generated": 1436,
+            "examined": 1436,
+            "cycle_or_missing": 55,
+            "distinct_graphs": 296,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 5,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0121",
+          "before": 43,
+          "after": 43,
+          "counts": {
+            "targets": 15,
+            "generated": 6102,
+            "examined": 6102,
+            "cycle_or_missing": 30,
+            "distinct_graphs": 169,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0250",
+          "before": 20,
+          "after": 20,
+          "counts": {
+            "targets": 6,
+            "generated": 541,
+            "examined": 541,
+            "cycle_or_missing": 18,
+            "distinct_graphs": 33,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0282",
+          "before": 42,
+          "after": 42,
+          "counts": {
+            "targets": 13,
+            "generated": 5422,
+            "examined": 5422,
+            "cycle_or_missing": 147,
+            "distinct_graphs": 421,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0296",
+          "before": 38,
+          "after": 38,
+          "counts": {
+            "targets": 11,
+            "generated": 4119,
+            "examined": 4119,
+            "cycle_or_missing": 70,
+            "distinct_graphs": 283,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0455",
+          "before": 25,
+          "after": 25,
+          "counts": {
+            "targets": 7,
+            "generated": 1214,
+            "examined": 1214,
+            "cycle_or_missing": 25,
+            "distinct_graphs": 74,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0874",
+          "before": 27,
+          "after": 27,
+          "counts": {
+            "targets": 13,
+            "generated": 4094,
+            "examined": 4094,
+            "cycle_or_missing": 357,
+            "distinct_graphs": 736,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 5,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0892",
+          "before": 16,
+          "after": 16,
+          "counts": {
+            "targets": 8,
+            "generated": 1420,
+            "examined": 1420,
+            "cycle_or_missing": 118,
+            "distinct_graphs": 365,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0913",
+          "before": 25,
+          "after": 25,
+          "counts": {
+            "targets": 11,
+            "generated": 4059,
+            "examined": 4059,
+            "cycle_or_missing": 349,
+            "distinct_graphs": 1422,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 4,
+            "compiled": 5
+          }
+        },
+        {
+          "id": "scored_0945",
+          "before": 28,
+          "after": 28,
+          "counts": {
+            "targets": 13,
+            "generated": 5342,
+            "examined": 5342,
+            "cycle_or_missing": 383,
+            "distinct_graphs": 1623,
+            "max_retained": 5,
+            "nonbaseline_graphs_final": 5,
+            "compiled": 5
+          }
+        }
+      ]
+    },
+    "pilot_factor_joint": {
+      "factor_group_cap": 300,
+      "baseline_sha256": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "puzzles": 12,
+      "rows": [
+        {
+          "id": "scored_0006",
+          "before": 108,
+          "after": 108,
+          "stats": {
+            "factor_candidates": 81,
+            "reachable_factor_groups": 22,
+            "tested": 22,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0112",
+          "before": 212,
+          "after": 212,
+          "stats": {
+            "factor_candidates": 21,
+            "reachable_factor_groups": 8,
+            "tested": 0,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0223",
+          "before": 198,
+          "after": 198,
+          "stats": {
+            "factor_candidates": 36,
+            "reachable_factor_groups": 9,
+            "tested": 2,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0390",
+          "before": 92,
+          "after": 92,
+          "stats": {
+            "factor_candidates": 42,
+            "reachable_factor_groups": 11,
+            "tested": 10,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0556",
+          "before": 25,
+          "after": 25,
+          "stats": {
+            "factor_candidates": 7,
+            "reachable_factor_groups": 4,
+            "tested": 2,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0596",
+          "before": 92,
+          "after": 92,
+          "stats": {
+            "factor_candidates": 84,
+            "reachable_factor_groups": 13,
+            "tested": 5,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0667",
+          "before": 117,
+          "after": 117,
+          "stats": {
+            "factor_candidates": 199,
+            "reachable_factor_groups": 25,
+            "tested": 72,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0810",
+          "before": 29,
+          "after": 29,
+          "stats": {
+            "factor_candidates": 175,
+            "reachable_factor_groups": 23,
+            "tested": 44,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0334",
+          "before": 226,
+          "after": 226,
+          "stats": {
+            "factor_candidates": 32,
+            "reachable_factor_groups": 8,
+            "tested": 0,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0520",
+          "before": 170,
+          "after": 170,
+          "stats": {
+            "factor_candidates": 19,
+            "reachable_factor_groups": 6,
+            "tested": 0,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0081",
+          "before": 126,
+          "after": 126,
+          "stats": {
+            "factor_candidates": 84,
+            "reachable_factor_groups": 9,
+            "tested": 0,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        },
+        {
+          "id": "scored_0744",
+          "before": 272,
+          "after": 272,
+          "stats": {
+            "factor_candidates": 23,
+            "reachable_factor_groups": 7,
+            "tested": 0,
+            "invalid_cycle": 0,
+            "shorter_graphs": 0,
+            "valid_improvements": 0
+          }
+        }
+      ]
+    }
+  },
+  "factor": {
+    "pilot_factor_12": {
+      "complete": true,
+      "parameters": {
+        "cuts": 16,
+        "offsets": 12,
+        "nout": 24,
+        "linked": false,
+        "select": false
+      },
+      "rows": {
+        "scored_0006": {
+          "cuts": 8,
+          "factor_pairs": 5920,
+          "generated": 88,
+          "linked": 0,
+          "retained": 71,
+          "greedy": 108,
+          "parent": 108,
+          "best": 108
+        },
+        "scored_0081": {
+          "cuts": 11,
+          "factor_pairs": 14233,
+          "generated": 14,
+          "linked": 0,
+          "retained": 14,
+          "greedy": 126,
+          "parent": 126,
+          "best": 126
+        },
+        "scored_0112": {
+          "cuts": 16,
+          "factor_pairs": 14675,
+          "generated": 4,
+          "linked": 0,
+          "retained": 4,
+          "greedy": 212,
+          "parent": 212,
+          "best": 212
+        },
+        "scored_0223": {
+          "cuts": 16,
+          "factor_pairs": 29122,
+          "generated": 6,
+          "linked": 0,
+          "retained": 6,
+          "greedy": 198,
+          "parent": 198,
+          "best": 198
+        },
+        "scored_0334": {
+          "cuts": 16,
+          "factor_pairs": 29059,
+          "generated": 3,
+          "linked": 0,
+          "retained": 3,
+          "greedy": 226,
+          "parent": 226,
+          "best": 226
+        },
+        "scored_0390": {
+          "cuts": 7,
+          "factor_pairs": 3514,
+          "generated": 17,
+          "linked": 0,
+          "retained": 17,
+          "greedy": 92,
+          "parent": 92,
+          "best": 92
+        },
+        "scored_0520": {
+          "cuts": 16,
+          "factor_pairs": 9929,
+          "generated": 27,
+          "linked": 0,
+          "retained": 27,
+          "greedy": 170,
+          "parent": 170,
+          "best": 170
+        },
+        "scored_0556": {
+          "cuts": 0,
+          "greedy": 25,
+          "parent": 25,
+          "best": 25
+        },
+        "scored_0596": {
+          "cuts": 4,
+          "factor_pairs": 3990,
+          "generated": 5,
+          "linked": 0,
+          "retained": 5,
+          "greedy": 92,
+          "parent": 92,
+          "best": 92
+        },
+        "scored_0667": {
+          "cuts": 9,
+          "factor_pairs": 9898,
+          "generated": 42,
+          "linked": 0,
+          "retained": 42,
+          "greedy": 117,
+          "parent": 117,
+          "best": 117
+        },
+        "scored_0744": {
+          "cuts": 16,
+          "factor_pairs": 26973,
+          "generated": 2,
+          "linked": 0,
+          "retained": 2,
+          "greedy": 272,
+          "parent": 272,
+          "best": 272
+        },
+        "scored_0810": {
+          "cuts": 0,
+          "greedy": 29,
+          "parent": 29,
+          "best": 29
+        }
+      },
+      "parent": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "source": "ad8027bacc2c8a46411b4863c4896ed2e9755185c7eceab5b231eee724656b51",
+      "native_source": "84937aa177dd12f4728ca18148ece321195471d9d19c13776afdb48787193c44"
+    },
+    "pilot_factor_deep": {
+      "complete": true,
+      "parameters": {
+        "cuts": 64,
+        "offsets": 128,
+        "nout": 64,
+        "linked": true,
+        "select": false
+      },
+      "rows": {
+        "scored_0006": {
+          "cuts": 8,
+          "factor_pairs": 24999,
+          "generated": 135,
+          "linked": 491,
+          "retained": 135,
+          "greedy": 108,
+          "parent": 108,
+          "best": 108
+        },
+        "scored_0081": {
+          "cuts": 11,
+          "factor_pairs": 76137,
+          "generated": 30,
+          "linked": 109,
+          "retained": 30,
+          "greedy": 126,
+          "parent": 126,
+          "best": 126
+        },
+        "scored_0112": {
+          "cuts": 41,
+          "factor_pairs": 199993,
+          "generated": 54,
+          "linked": 46,
+          "retained": 54,
+          "greedy": 212,
+          "parent": 212,
+          "best": 212
+        },
+        "scored_0223": {
+          "cuts": 40,
+          "factor_pairs": 365491,
+          "generated": 75,
+          "linked": 81,
+          "retained": 75,
+          "greedy": 198,
+          "parent": 198,
+          "best": 198
+        },
+        "scored_0334": {
+          "cuts": 39,
+          "factor_pairs": 337706,
+          "generated": 39,
+          "linked": 193,
+          "retained": 39,
+          "greedy": 226,
+          "parent": 226,
+          "best": 226
+        },
+        "scored_0390": {
+          "cuts": 7,
+          "factor_pairs": 16247,
+          "generated": 36,
+          "linked": 50,
+          "retained": 36,
+          "greedy": 92,
+          "parent": 92,
+          "best": 92
+        },
+        "scored_0520": {
+          "cuts": 23,
+          "factor_pairs": 72067,
+          "generated": 47,
+          "linked": 116,
+          "retained": 47,
+          "greedy": 170,
+          "parent": 170,
+          "best": 170
+        },
+        "scored_0556": {
+          "cuts": 0,
+          "greedy": 25,
+          "parent": 25,
+          "best": 25
+        },
+        "scored_0596": {
+          "cuts": 4,
+          "factor_pairs": 23263,
+          "generated": 6,
+          "linked": 0,
+          "retained": 6,
+          "greedy": 92,
+          "parent": 92,
+          "best": 92
+        },
+        "scored_0667": {
+          "cuts": 9,
+          "factor_pairs": 42796,
+          "generated": 59,
+          "linked": 37,
+          "retained": 59,
+          "greedy": 117,
+          "parent": 117,
+          "best": 117
+        },
+        "scored_0744": {
+          "cuts": 64,
+          "factor_pairs": 488715,
+          "generated": 65,
+          "linked": 116,
+          "retained": 65,
+          "greedy": 272,
+          "parent": 272,
+          "best": 272
+        },
+        "scored_0810": {
+          "cuts": 0,
+          "greedy": 29,
+          "parent": 29,
+          "best": 29
+        }
+      },
+      "parent": "18ce30650bfbdd16e392aa406a1522746179c8194585593443d93f0c59cbd950",
+      "source": "ad8027bacc2c8a46411b4863c4896ed2e9755185c7eceab5b231eee724656b51",
+      "native_source": "84937aa177dd12f4728ca18148ece321195471d9d19c13776afdb48787193c44"
+    }
+  }
+}
