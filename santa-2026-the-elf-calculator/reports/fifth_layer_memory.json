@@ -1,0 +1,484 @@
+{
+  "seed": 20261124,
+  "sample_ids": [
+    "scored_0844",
+    "scored_0178",
+    "scored_0692",
+    "scored_0976",
+    "scored_0004",
+    "scored_0046",
+    "scored_0689",
+    "scored_0816",
+    "scored_0709",
+    "scored_0142",
+    "scored_0899",
+    "scored_0621",
+    "scored_0477",
+    "scored_0502",
+    "scored_0965",
+    "scored_0167",
+    "scored_0779",
+    "scored_0449",
+    "scored_0435",
+    "scored_0796",
+    "scored_0858",
+    "scored_0583",
+    "scored_0253",
+    "scored_0078",
+    "scored_0819",
+    "scored_0743",
+    "scored_0002",
+    "scored_0598",
+    "scored_0576",
+    "scored_0908",
+    "scored_0060",
+    "scored_0966",
+    "scored_0146",
+    "scored_0654",
+    "scored_0464",
+    "scored_0299",
+    "scored_0901",
+    "scored_0028",
+    "scored_0775",
+    "scored_0811",
+    "scored_0722"
+  ],
+  "examples": [
+    "scored_0042",
+    "scored_0378",
+    "scored_0272",
+    "scored_0051",
+    "scored_0253"
+  ],
+  "memory_unit": "GiB",
+  "median_limit": 205531622878761.5,
+  "dense_fit_12": 195,
+  "dense_fit_6": 183,
+  "cases": {
+    "scored_0042": {
+      "id": "scored_0042",
+      "limit": 1513432792340,
+      "f2_count": 395,
+      "f3_subset": 111577,
+      "f3_complete": true,
+      "f4_prefix": 8238,
+      "f5_lower": 6071297365
+    },
+    "scored_0378": {
+      "id": "scored_0378",
+      "limit": 1858672976,
+      "f2_count": 394,
+      "f3_subset": 100441,
+      "f3_complete": true,
+      "f4_prefix": 258829,
+      "f5_lower": 1858672976
+    },
+    "scored_0272": {
+      "id": "scored_0272",
+      "limit": 574907,
+      "f2_count": 401,
+      "f3_subset": 35149,
+      "f3_complete": true,
+      "f4_prefix": 574907,
+      "f5_lower": 574907
+    },
+    "scored_0051": {
+      "id": "scored_0051",
+      "limit": 995152094173895900,
+      "f2_count": 117,
+      "f3_subset": 11691,
+      "f3_complete": true,
+      "f4_prefix": 14,
+      "f5_lower": 17966570
+    },
+    "scored_0253": {
+      "id": "scored_0253",
+      "limit": 1753420305,
+      "f2_count": 7425,
+      "f3_subset": 158553,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 1753420305
+    },
+    "scored_0844": {
+      "id": "scored_0844",
+      "limit": 993742634299475299,
+      "f2_count": 402,
+      "f3_subset": 147069,
+      "f3_complete": true,
+      "f4_prefix": 8119,
+      "f5_lower": 73689070182
+    },
+    "scored_0178": {
+      "id": "scored_0178",
+      "limit": 314348519687028,
+      "f2_count": 568,
+      "f3_subset": 62241,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 2719801314215
+    },
+    "scored_0692": {
+      "id": "scored_0692",
+      "limit": 558976225111403551,
+      "f2_count": 89,
+      "f3_subset": 3753,
+      "f3_complete": true,
+      "f4_prefix": 64182,
+      "f5_lower": 5106938278
+    },
+    "scored_0976": {
+      "id": "scored_0976",
+      "limit": 218524819165813,
+      "f2_count": 626,
+      "f3_subset": 74348,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 4015902489190
+    },
+    "scored_0004": {
+      "id": "scored_0004",
+      "limit": 2069072388584913,
+      "f2_count": 403,
+      "f3_subset": 139049,
+      "f3_complete": true,
+      "f4_prefix": 4709,
+      "f5_lower": 16232142757
+    },
+    "scored_0046": {
+      "id": "scored_0046",
+      "limit": 193997878,
+      "f2_count": 70,
+      "f3_subset": 3080,
+      "f3_complete": true,
+      "f4_prefix": 12953,
+      "f5_lower": 192245195
+    },
+    "scored_0689": {
+      "id": "scored_0689",
+      "limit": 3942037004043,
+      "f2_count": 1046,
+      "f3_subset": 164112,
+      "f3_complete": false,
+      "f4_prefix": 76816,
+      "f5_lower": 329819013776
+    },
+    "scored_0816": {
+      "id": "scored_0816",
+      "limit": 9857315433997,
+      "f2_count": 53,
+      "f3_subset": 1307,
+      "f3_complete": true,
+      "f4_prefix": 14451,
+      "f5_lower": 338175011
+    },
+    "scored_0709": {
+      "id": "scored_0709",
+      "limit": 129395644039504843,
+      "f2_count": 117,
+      "f3_subset": 10233,
+      "f3_complete": true,
+      "f4_prefix": 123267,
+      "f5_lower": 96853303903
+    },
+    "scored_0142": {
+      "id": "scored_0142",
+      "limit": 1516158927103,
+      "f2_count": 1168,
+      "f3_subset": 82113,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 1320219740341
+    },
+    "scored_0899": {
+      "id": "scored_0899",
+      "limit": 966356686144904572,
+      "f2_count": 486,
+      "f3_subset": 48308,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 1639943886901
+    },
+    "scored_0621": {
+      "id": "scored_0621",
+      "limit": 151254488596459,
+      "f2_count": 256,
+      "f3_subset": 35028,
+      "f3_complete": true,
+      "f4_prefix": 1396781,
+      "f5_lower": 1480564859624
+    },
+    "scored_0477": {
+      "id": "scored_0477",
+      "limit": 63902056906914283,
+      "f2_count": 1054,
+      "f3_subset": 78705,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 5044631765913
+    },
+    "scored_0502": {
+      "id": "scored_0502",
+      "limit": 1612771912182,
+      "f2_count": 1053,
+      "f3_subset": 161249,
+      "f3_complete": false,
+      "f4_prefix": 169393,
+      "f5_lower": 493734630050
+    },
+    "scored_0965": {
+      "id": "scored_0965",
+      "limit": 214709711970726046,
+      "f2_count": 116,
+      "f3_subset": 8988,
+      "f3_complete": true,
+      "f4_prefix": 138975,
+      "f5_lower": 57147547741
+    },
+    "scored_0167": {
+      "id": "scored_0167",
+      "limit": 983620570124107971,
+      "f2_count": 4505,
+      "f3_subset": 196106,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 37812389826551
+    },
+    "scored_0779": {
+      "id": "scored_0779",
+      "limit": 157032756669711650,
+      "f2_count": 887,
+      "f3_subset": 74789,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 4844708530708
+    },
+    "scored_0449": {
+      "id": "scored_0449",
+      "limit": 2223656205344,
+      "f2_count": 78,
+      "f3_subset": 2878,
+      "f3_complete": true,
+      "f4_prefix": 21284,
+      "f5_lower": 2027717857
+    },
+    "scored_0435": {
+      "id": "scored_0435",
+      "limit": 867618752648653333,
+      "f2_count": 734,
+      "f3_subset": 63446,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 3173529512370
+    },
+    "scored_0796": {
+      "id": "scored_0796",
+      "limit": 2026176845999633,
+      "f2_count": 22,
+      "f3_subset": 379,
+      "f3_complete": true,
+      "f4_prefix": 7,
+      "f5_lower": 184960
+    },
+    "scored_0858": {
+      "id": "scored_0858",
+      "limit": 848487040,
+      "f2_count": 98,
+      "f3_subset": 4728,
+      "f3_complete": true,
+      "f4_prefix": 68732,
+      "f5_lower": 847034281
+    },
+    "scored_0583": {
+      "id": "scored_0583",
+      "limit": 3962535141,
+      "f2_count": 595,
+      "f3_subset": 52336,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 3962535141
+    },
+    "scored_0078": {
+      "id": "scored_0078",
+      "limit": 29567448898,
+      "f2_count": 975,
+      "f3_subset": 73609,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 29567448898
+    },
+    "scored_0819": {
+      "id": "scored_0819",
+      "limit": 973090435247538634,
+      "f2_count": 280,
+      "f3_subset": 31472,
+      "f3_complete": true,
+      "f4_prefix": 2000000,
+      "f5_lower": 1390529459473
+    },
+    "scored_0743": {
+      "id": "scored_0743",
+      "limit": 40240501712,
+      "f2_count": 320,
+      "f3_subset": 48616,
+      "f3_complete": true,
+      "f4_prefix": 2000000,
+      "f5_lower": 40240501712
+    },
+    "scored_0002": {
+      "id": "scored_0002",
+      "limit": 998363437601952921,
+      "f2_count": 1058,
+      "f3_subset": 175817,
+      "f3_complete": false,
+      "f4_prefix": 95044,
+      "f5_lower": 1893023679390
+    },
+    "scored_0598": {
+      "id": "scored_0598",
+      "limit": 8289838726,
+      "f2_count": 606,
+      "f3_subset": 68616,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 8289838726
+    },
+    "scored_0576": {
+      "id": "scored_0576",
+      "limit": 3623850024452,
+      "f2_count": 1060,
+      "f3_subset": 167402,
+      "f3_complete": false,
+      "f4_prefix": 749630,
+      "f5_lower": 1889115772727
+    },
+    "scored_0908": {
+      "id": "scored_0908",
+      "limit": 1577924,
+      "f2_count": 248,
+      "f3_subset": 19666,
+      "f3_complete": true,
+      "f4_prefix": 916262,
+      "f5_lower": 1577924
+    },
+    "scored_0060": {
+      "id": "scored_0060",
+      "limit": 996070965673241335,
+      "f2_count": 117,
+      "f3_subset": 11581,
+      "f3_complete": true,
+      "f4_prefix": 12,
+      "f5_lower": 9835916
+    },
+    "scored_0966": {
+      "id": "scored_0966",
+      "limit": 2458926084,
+      "f2_count": 105,
+      "f3_subset": 6694,
+      "f3_complete": true,
+      "f4_prefix": 86279,
+      "f5_lower": 2431930617
+    },
+    "scored_0146": {
+      "id": "scored_0146",
+      "limit": 986356250412273123,
+      "f2_count": 1060,
+      "f3_subset": 175160,
+      "f3_complete": false,
+      "f4_prefix": 91342,
+      "f5_lower": 1770605332074
+    },
+    "scored_0654": {
+      "id": "scored_0654",
+      "limit": 5882687,
+      "f2_count": 114,
+      "f3_subset": 6486,
+      "f3_complete": true,
+      "f4_prefix": 116882,
+      "f5_lower": 5882687
+    },
+    "scored_0464": {
+      "id": "scored_0464",
+      "limit": 19740638723,
+      "f2_count": 1041,
+      "f3_subset": 85022,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 19740638723
+    },
+    "scored_0299": {
+      "id": "scored_0299",
+      "limit": 1317818895885,
+      "f2_count": 1025,
+      "f3_subset": 161395,
+      "f3_complete": false,
+      "f4_prefix": 1068454,
+      "f5_lower": 1166785680084
+    },
+    "scored_0901": {
+      "id": "scored_0901",
+      "limit": 247814,
+      "f2_count": 235,
+      "f3_subset": 16319,
+      "f3_complete": true,
+      "f4_prefix": 247814,
+      "f5_lower": 247814
+    },
+    "scored_0028": {
+      "id": "scored_0028",
+      "limit": 853036391261667088,
+      "f2_count": 616,
+      "f3_subset": 68016,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 3933674568122
+    },
+    "scored_0775": {
+      "id": "scored_0775",
+      "limit": 988931724584997829,
+      "f2_count": 109,
+      "f3_subset": 8205,
+      "f3_complete": true,
+      "f4_prefix": 54040,
+      "f5_lower": 29337578724
+    },
+    "scored_0811": {
+      "id": "scored_0811",
+      "limit": 1270447276,
+      "f2_count": 641,
+      "f3_subset": 67772,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 1270447276
+    },
+    "scored_0722": {
+      "id": "scored_0722",
+      "limit": 106488322673986383,
+      "f2_count": 1100,
+      "f3_subset": 79170,
+      "f3_complete": false,
+      "f4_prefix": 2000000,
+      "f5_lower": 5547278620786
+    }
+  },
+  "restricted_joins": {
+    "scored_0042": {
+      "forward": 111577,
+      "reverse": 16159,
+      "goals": 28,
+      "connected": 0
+    },
+    "scored_0378": {
+      "forward": 100441,
+      "reverse": 10404,
+      "goals": 18,
+      "connected": 0
+    },
+    "scored_0272": {
+      "forward": 35149,
+      "reverse": 15446,
+      "goals": 7,
+      "connected": 7
+    }
+  }
+}

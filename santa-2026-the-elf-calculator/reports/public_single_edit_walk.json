@@ -1,0 +1,34 @@
+[
+  {
+    "id": "scored_0253",
+    "steps": 74,
+    "results": {
+      "illegal": 150,
+      "missed_targets": 50
+    }
+  },
+  {
+    "id": "scored_0667",
+    "steps": 117,
+    "results": {
+      "illegal": 116,
+      "missed_targets": 84
+    }
+  },
+  {
+    "id": "scored_0810",
+    "steps": 29,
+    "results": {
+      "missed_targets": 114,
+      "illegal": 86
+    }
+  },
+  {
+    "id": "scored_0035",
+    "steps": 100,
+    "results": {
+      "illegal": 101,
+      "missed_targets": 99
+    }
+  }
+]

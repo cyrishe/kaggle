@@ -22,3 +22,26 @@ __pycache__/
 /experiments/product_anchor_study.json
 /experiments/graph_scored_*.dot
 /experiments/graph_scored_*_report.json
+
+# Local reference databases, puzzle-level traces and regenerated submissions.
+.DS_Store
+._*
+/reports/*.sqlite*
+/reports/baseline_random_*_cases.md
+/reports/scored_*_public_*.txt
+/reports/scored_*_depth.svg
+/reports/depth_graph_study.json
+/reports/sparse_depth_study.json
+/reports/scored_0253_boundary.json
+/reports/capped_path_walk.json
+/reports/public_prefix_walk.json
+/reports/hybrid_graph_benchmark.json
+/reports/hybrid_graph_holdout.json
+/reports/hybrid_graph_results.json
+/reports/hybrid_shared_repair.json
+/experiments/public_initial_final_review_30.json
+/experiments/public_reference_two_cases.csv
+/experiments/deep_ten_programs.csv
+/experiments/deep_ten_fifo_programs.csv
+/local-runs/
+/.venv/

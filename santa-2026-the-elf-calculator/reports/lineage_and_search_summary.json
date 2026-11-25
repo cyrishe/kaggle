@@ -1,0 +1,387 @@
+{
+  "target_reuse_frequency": {
+    "source": {
+      "submission_sha256": "4590f6fa27c902762f03ddb2af6c4dfc103ae44fe65ae02d4937eea1e0e6eb14",
+      "puzzles_sha256": "41ae9beee69a49778a549012a14d2010e7c9d9af36997f1b84a4a8ad4222ad85"
+    },
+    "all": {
+      "puzzles": 1000,
+      "targets": 26902,
+      "ranks": {
+        "by_coverage": [
+          {
+            "median": 1.0,
+            "all": 996,
+            "at_least_half": 1000
+          },
+          {
+            "median": 1.0,
+            "all": 989,
+            "at_least_half": 998
+          },
+          {
+            "median": 1.0,
+            "all": 979,
+            "at_least_half": 996
+          }
+        ],
+        "large_helpers": [
+          {
+            "median": 1.0,
+            "all": 889,
+            "at_least_half": 986
+          },
+          {
+            "median": 1.0,
+            "all": 779,
+            "at_least_half": 984
+          },
+          {
+            "median": 1.0,
+            "all": 639,
+            "at_least_half": 983
+          }
+        ],
+        "by_final_two": [
+          {
+            "median": 0.23333333333333334,
+            "all": 11,
+            "at_least_half": 93
+          },
+          {
+            "median": 0.1935483870967742,
+            "all": 4,
+            "at_least_half": 65
+          },
+          {
+            "median": 0.1724137931034483,
+            "all": 2,
+            "at_least_half": 36
+          }
+        ]
+      }
+    },
+    "exactly_32": {
+      "puzzles": 188,
+      "targets": 6016,
+      "ranks": {
+        "by_coverage": [
+          {
+            "median": 1.0,
+            "all": 188,
+            "at_least_half": 188
+          },
+          {
+            "median": 1.0,
+            "all": 188,
+            "at_least_half": 188
+          },
+          {
+            "median": 1.0,
+            "all": 187,
+            "at_least_half": 188
+          }
+        ],
+        "large_helpers": [
+          {
+            "median": 1.0,
+            "all": 166,
+            "at_least_half": 188
+          },
+          {
+            "median": 1.0,
+            "all": 146,
+            "at_least_half": 188
+          },
+          {
+            "median": 1.0,
+            "all": 125,
+            "at_least_half": 188
+          }
+        ],
+        "by_final_two": [
+          {
+            "median": 0.21875,
+            "all": 0,
+            "at_least_half": 0
+          },
+          {
+            "median": 0.1875,
+            "all": 0,
+            "at_least_half": 0
+          },
+          {
+            "median": 0.15625,
+            "all": 0,
+            "at_least_half": 0
+          }
+        ]
+      }
+    }
+  },
+  "full_coverage_helpers": {
+    "sample_seed": 20261125,
+    "sample_summary": {
+      "puzzles": 100,
+      "occurrences": 623,
+      "mean": 6.23,
+      "median": 5.5,
+      "histogram": {
+        "0": 3,
+        "1": 3,
+        "2": 9,
+        "3": 11,
+        "4": 10,
+        "5": 14,
+        "6": 12,
+        "7": 7,
+        "8": 8,
+        "9": 4,
+        "10": 4,
+        "11": 6,
+        "12": 2,
+        "13": 1,
+        "14": 2,
+        "15": 1,
+        "16": 1,
+        "17": 1,
+        "19": 1
+      },
+      "distinct_values": 361,
+      "strict_gt10_occurrences": 615,
+      "tens": 8,
+      "median_program_reads": 4,
+      "read_once": 5
+    },
+    "all_summary": {
+      "puzzles": 1000,
+      "occurrences": 6088,
+      "mean": 6.088,
+      "median": 5.0,
+      "histogram": {
+        "0": 35,
+        "1": 52,
+        "2": 72,
+        "3": 122,
+        "4": 119,
+        "5": 125,
+        "6": 95,
+        "7": 85,
+        "8": 65,
+        "9": 51,
+        "10": 40,
+        "11": 30,
+        "12": 37,
+        "13": 19,
+        "14": 15,
+        "15": 11,
+        "16": 9,
+        "17": 6,
+        "18": 4,
+        "19": 3,
+        "20": 1,
+        "21": 1,
+        "22": 2,
+        "25": 1
+      },
+      "distinct_values": 1843,
+      "strict_gt10_occurrences": 6022,
+      "tens": 66,
+      "median_program_reads": 5.0,
+      "read_once": 47
+    }
+  },
+  "shared_value_operations": {
+    "sample": {
+      "+": {
+        "reads": 953,
+        "instructions": 821,
+        "helpers_used": 503,
+        "left": 442,
+        "right": 511,
+        "same_value": 30,
+        "all_instructions": 4768
+      },
+      "*": {
+        "reads": 1096,
+        "instructions": 936,
+        "helpers_used": 502,
+        "left": 509,
+        "right": 587,
+        "same_value": 71,
+        "all_instructions": 4624
+      },
+      "-": {
+        "reads": 762,
+        "instructions": 678,
+        "helpers_used": 457,
+        "left": 255,
+        "right": 507,
+        "same_value": 0,
+        "all_instructions": 4274
+      },
+      "/": {
+        "reads": 126,
+        "instructions": 109,
+        "helpers_used": 109,
+        "left": 76,
+        "right": 50,
+        "same_value": 6,
+        "all_instructions": 344
+      }
+    },
+    "all": {
+      "+": {
+        "reads": 9381,
+        "instructions": 8018,
+        "helpers_used": 4905,
+        "left": 4458,
+        "right": 4923,
+        "same_value": 391,
+        "all_instructions": 44547
+      },
+      "*": {
+        "reads": 10867,
+        "instructions": 9368,
+        "helpers_used": 4918,
+        "left": 5302,
+        "right": 5565,
+        "same_value": 650,
+        "all_instructions": 44142
+      },
+      "-": {
+        "reads": 7649,
+        "instructions": 6881,
+        "helpers_used": 4494,
+        "left": 2665,
+        "right": 4984,
+        "same_value": 0,
+        "all_instructions": 40176
+      },
+      "/": {
+        "reads": 1196,
+        "instructions": 1025,
+        "helpers_used": 1040,
+        "left": 693,
+        "right": 503,
+        "same_value": 44,
+        "all_instructions": 3390
+      }
+    }
+  },
+  "depth_graph_study": {
+    "longest": {
+      "id": "scored_0051",
+      "steps": 277,
+      "depth": 29,
+      "target_depth": 29
+    },
+    "deepest": {
+      "id": "scored_0111",
+      "steps": 204,
+      "depth": 36,
+      "target_depth": 36
+    },
+    "median_depth": 21.0
+  },
+  "deferred_growth_study": {
+    "stats": {
+      "targets": {
+        "miss": 26041,
+        "active": 743,
+        "resumed": 63,
+        "pinned": 55
+      },
+      "distinct_differences": {
+        "miss": 371112,
+        "active": 5483,
+        "pinned": 675,
+        "resumed": 534
+      }
+    },
+    "affected_puzzles": {
+      "targets": 49,
+      "distinct_differences": 162
+    }
+  },
+  "hybrid_graph_results": {
+    "totals": {
+      "initial_random": {
+        "public": 1834,
+        "signed_radix": 5211,
+        "factor_graph": 5026,
+        "stochastic_graph": 5026,
+        "live_fixed": 3229,
+        "live_portfolio": 3221,
+        "virtual_no_gcd": 2885,
+        "virtual_fixed": 2880,
+        "virtual_portfolio": 2877,
+        "repair_own": 2864,
+        "repair_public": 1834,
+        "shared_repair_own": 2859,
+        "shared_repair_public": 1834,
+        "round_robin": 2814,
+        "ucb": 2809,
+        "own_final": 2799,
+        "previous_anchor": 4771
+      },
+      "holdout_random": {
+        "public": 1353,
+        "signed_radix": 3930,
+        "factor_graph": 3795,
+        "stochastic_graph": 3794,
+        "live_fixed": 2366,
+        "live_portfolio": 2351,
+        "virtual_no_gcd": 2178,
+        "virtual_fixed": 2179,
+        "virtual_portfolio": 2156,
+        "repair_own": 2137,
+        "repair_public": 1353,
+        "shared_repair_own": 2135,
+        "shared_repair_public": 1353,
+        "round_robin": 2130,
+        "ucb": 2127,
+        "own_final": 2114,
+        "previous_anchor": 3651
+      },
+      "diagnostic": {
+        "public": 449,
+        "signed_radix": 1355,
+        "factor_graph": 1295,
+        "stochastic_graph": 1295,
+        "live_fixed": 795,
+        "live_portfolio": 794,
+        "virtual_no_gcd": 708,
+        "virtual_fixed": 708,
+        "virtual_portfolio": 706,
+        "repair_own": 698,
+        "repair_public": 449,
+        "shared_repair_own": 696,
+        "shared_repair_public": 449,
+        "round_robin": 693,
+        "ucb": 693,
+        "own_final": 687,
+        "previous_anchor": 1270
+      },
+      "random_combined": {
+        "public": 3187,
+        "signed_radix": 9141,
+        "factor_graph": 8821,
+        "stochastic_graph": 8820,
+        "live_fixed": 5595,
+        "live_portfolio": 5572,
+        "virtual_no_gcd": 5063,
+        "virtual_fixed": 5059,
+        "virtual_portfolio": 5033,
+        "repair_own": 5001,
+        "repair_public": 3187,
+        "shared_repair_own": 4994,
+        "shared_repair_public": 3187,
+        "round_robin": 4944,
+        "ucb": 4936,
+        "own_final": 4913,
+        "previous_anchor": 8422
+      }
+    }
+  }
+}

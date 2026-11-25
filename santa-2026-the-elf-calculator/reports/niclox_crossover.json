@@ -1,0 +1,52 @@
+{
+  "scored_0253": {
+    "parents": [
+      75,
+      74
+    ],
+    "best": 74,
+    "combinations": 1024,
+    "tested": 1024,
+    "min_nodes": 74
+  },
+  "scored_0995": {
+    "parents": [
+      142,
+      120
+    ],
+    "best": 120,
+    "combinations": 68719476736,
+    "tested": 4096,
+    "min_nodes": 120
+  },
+  "scored_0190": {
+    "parents": [
+      126,
+      108
+    ],
+    "best": 108,
+    "combinations": 17179869184,
+    "tested": 4096,
+    "min_nodes": 108
+  },
+  "scored_0362": {
+    "parents": [
+      111,
+      95
+    ],
+    "best": 95,
+    "combinations": 4294967296,
+    "tested": 4096,
+    "min_nodes": 95
+  },
+  "scored_0484": {
+    "parents": [
+      131,
+      117
+    ],
+    "best": 117,
+    "combinations": 17179869184,
+    "tested": 4096,
+    "min_nodes": 117
+  }
+}
