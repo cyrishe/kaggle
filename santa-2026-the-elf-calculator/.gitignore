@@ -45,3 +45,10 @@ __pycache__/
 /experiments/deep_ten_fifo_programs.csv
 /local-runs/
 /.venv/
+
+# Regenerate optional external controls and intermediate hypotheses locally.
+/reports/collective_external_control.json
+/reports/collective_matrix_external.json
+/reports/collective_matrix_emit.json
+/reports/collective_matrix_fits.json
+/reports/collective_matrix_screen.json

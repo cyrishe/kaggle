@@ -1,0 +1,4028 @@
+{
+ "puzzles": 1000,
+ "verified_total": 320585,
+ "anchor_total": 336512,
+ "source_counts": {
+  "reports/hybrid_graph_results.json#own_final_program": 17,
+  "reports/iterate_branch_merges.json.gz": 7,
+  "experiments/anchor_scored_submission.csv": 826,
+  "reports/deep100_best.json.gz": 16,
+  "reports/factor_quotient_programs.json": 71,
+  "reports/factor_routing_benchmark.json#own/residue": 1,
+  "reports/joint_bridge_verified_programs.json": 27,
+  "reports/factor_routing_benchmark.json#own/affine": 6,
+  "reports/factor_routing_benchmark.json#live/affine": 5,
+  "reports/demand_pruning.json#single": 3,
+  "reports/factor_routing_benchmark.json#own/delta": 3,
+  "experiments/recursive_window_programs.csv": 4,
+  "reports/factor_routing_benchmark.json#own/factor": 6,
+  "reports/demand_pruning.json#joint": 2,
+  "reports/memory_frontier_benchmark.json#13": 1,
+  "experiments/deep_ten_programs.csv": 2,
+  "reports/factor_routing_benchmark.json#live/factor": 1,
+  "reports/monte_carlo_recipe_search.json#runs/3/arms/fresh": 1,
+  "reports/monte_carlo_recipe_search.json#runs/3/arms/hill": 1
+ },
+ "cases": {
+  "scored_0001": {
+   "steps": 295,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0002": {
+   "steps": 328,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0003": {
+   "steps": 504,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0004": {
+   "steps": 498,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0005": {
+   "steps": 60,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0006": {
+   "steps": 361,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0007": {
+   "steps": 430,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0008": {
+   "steps": 325,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0009": {
+   "steps": 70,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0010": {
+   "steps": 239,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0011": {
+   "steps": 239,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0012": {
+   "steps": 235,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0013": {
+   "steps": 395,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0014": {
+   "steps": 62,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0015": {
+   "steps": 523,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0016": {
+   "steps": 248,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0017": {
+   "steps": 288,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0018": {
+   "steps": 297,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0019": {
+   "steps": 57,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0020": {
+   "steps": 604,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0021": {
+   "steps": 70,
+   "source": "reports/factor_routing_benchmark.json#own/residue"
+  },
+  "scored_0022": {
+   "steps": 287,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0023": {
+   "steps": 384,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0024": {
+   "steps": 30,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0025": {
+   "steps": 322,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0026": {
+   "steps": 433,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0027": {
+   "steps": 258,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0028": {
+   "steps": 429,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0029": {
+   "steps": 89,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0030": {
+   "steps": 472,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0031": {
+   "steps": 595,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0032": {
+   "steps": 251,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0033": {
+   "steps": 509,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0034": {
+   "steps": 399,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0035": {
+   "steps": 133,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0036": {
+   "steps": 545,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0037": {
+   "steps": 466,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0038": {
+   "steps": 187,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0039": {
+   "steps": 222,
+   "source": "reports/factor_routing_benchmark.json#own/affine"
+  },
+  "scored_0040": {
+   "steps": 420,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0041": {
+   "steps": 331,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0042": {
+   "steps": 383,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0043": {
+   "steps": 503,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0044": {
+   "steps": 101,
+   "source": "reports/factor_routing_benchmark.json#live/affine"
+  },
+  "scored_0045": {
+   "steps": 369,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0046": {
+   "steps": 66,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0047": {
+   "steps": 405,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0048": {
+   "steps": 343,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0049": {
+   "steps": 361,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0050": {
+   "steps": 33,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0051": {
+   "steps": 667,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0052": {
+   "steps": 256,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0053": {
+   "steps": 378,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0054": {
+   "steps": 456,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0055": {
+   "steps": 179,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0056": {
+   "steps": 29,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0057": {
+   "steps": 523,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0058": {
+   "steps": 647,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0059": {
+   "steps": 345,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0060": {
+   "steps": 362,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0061": {
+   "steps": 5,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0062": {
+   "steps": 335,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0063": {
+   "steps": 288,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0064": {
+   "steps": 298,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0065": {
+   "steps": 43,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0066": {
+   "steps": 84,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0067": {
+   "steps": 631,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0068": {
+   "steps": 411,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0069": {
+   "steps": 672,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0070": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0071": {
+   "steps": 257,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0072": {
+   "steps": 298,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0073": {
+   "steps": 296,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0074": {
+   "steps": 513,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0075": {
+   "steps": 612,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0076": {
+   "steps": 329,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0077": {
+   "steps": 133,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0078": {
+   "steps": 130,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0079": {
+   "steps": 348,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0080": {
+   "steps": 325,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0081": {
+   "steps": 283,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0082": {
+   "steps": 374,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0083": {
+   "steps": 398,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0084": {
+   "steps": 87,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0085": {
+   "steps": 213,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0086": {
+   "steps": 141,
+   "source": "reports/demand_pruning.json#single"
+  },
+  "scored_0087": {
+   "steps": 598,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0088": {
+   "steps": 506,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0089": {
+   "steps": 288,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0090": {
+   "steps": 442,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0091": {
+   "steps": 32,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0092": {
+   "steps": 74,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0093": {
+   "steps": 136,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0094": {
+   "steps": 622,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0095": {
+   "steps": 75,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0096": {
+   "steps": 408,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0097": {
+   "steps": 217,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0098": {
+   "steps": 432,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0099": {
+   "steps": 401,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0100": {
+   "steps": 346,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0101": {
+   "steps": 274,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0102": {
+   "steps": 372,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0103": {
+   "steps": 96,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0104": {
+   "steps": 553,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0105": {
+   "steps": 350,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0106": {
+   "steps": 538,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0107": {
+   "steps": 595,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0108": {
+   "steps": 432,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0109": {
+   "steps": 344,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0110": {
+   "steps": 393,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0111": {
+   "steps": 501,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0112": {
+   "steps": 505,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0113": {
+   "steps": 28,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0114": {
+   "steps": 407,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0115": {
+   "steps": 490,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0116": {
+   "steps": 108,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0117": {
+   "steps": 450,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0118": {
+   "steps": 245,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0119": {
+   "steps": 534,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0120": {
+   "steps": 477,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0121": {
+   "steps": 57,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0122": {
+   "steps": 386,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0123": {
+   "steps": 521,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0124": {
+   "steps": 57,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0125": {
+   "steps": 258,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0126": {
+   "steps": 4,
+   "source": "reports/factor_routing_benchmark.json#own/delta"
+  },
+  "scored_0127": {
+   "steps": 294,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0128": {
+   "steps": 284,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0129": {
+   "steps": 677,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0130": {
+   "steps": 51,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0131": {
+   "steps": 206,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0132": {
+   "steps": 247,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0133": {
+   "steps": 569,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0134": {
+   "steps": 32,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0135": {
+   "steps": 208,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0136": {
+   "steps": 340,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0137": {
+   "steps": 64,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0138": {
+   "steps": 198,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0139": {
+   "steps": 431,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0140": {
+   "steps": 380,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0141": {
+   "steps": 168,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0142": {
+   "steps": 146,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0143": {
+   "steps": 439,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0144": {
+   "steps": 270,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0145": {
+   "steps": 522,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0146": {
+   "steps": 632,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0147": {
+   "steps": 202,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0148": {
+   "steps": 417,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0149": {
+   "steps": 42,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0150": {
+   "steps": 399,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0151": {
+   "steps": 31,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0152": {
+   "steps": 288,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0153": {
+   "steps": 249,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0154": {
+   "steps": 384,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0155": {
+   "steps": 528,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0156": {
+   "steps": 309,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0157": {
+   "steps": 376,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0158": {
+   "steps": 342,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0159": {
+   "steps": 332,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0160": {
+   "steps": 461,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0161": {
+   "steps": 351,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0162": {
+   "steps": 455,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0163": {
+   "steps": 615,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0164": {
+   "steps": 161,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0165": {
+   "steps": 600,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0166": {
+   "steps": 486,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0167": {
+   "steps": 615,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0168": {
+   "steps": 651,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0169": {
+   "steps": 232,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0170": {
+   "steps": 533,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0171": {
+   "steps": 165,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0172": {
+   "steps": 400,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0173": {
+   "steps": 449,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0174": {
+   "steps": 342,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0175": {
+   "steps": 232,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0176": {
+   "steps": 263,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0177": {
+   "steps": 319,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0178": {
+   "steps": 254,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0179": {
+   "steps": 505,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0180": {
+   "steps": 184,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0181": {
+   "steps": 33,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0182": {
+   "steps": 361,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0183": {
+   "steps": 659,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0184": {
+   "steps": 324,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0185": {
+   "steps": 421,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0186": {
+   "steps": 213,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0187": {
+   "steps": 116,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0188": {
+   "steps": 199,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0189": {
+   "steps": 432,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0190": {
+   "steps": 286,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0191": {
+   "steps": 319,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0192": {
+   "steps": 367,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0193": {
+   "steps": 274,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0194": {
+   "steps": 359,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0195": {
+   "steps": 265,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0196": {
+   "steps": 63,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0197": {
+   "steps": 275,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0198": {
+   "steps": 512,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0199": {
+   "steps": 215,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0200": {
+   "steps": 358,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0201": {
+   "steps": 364,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0202": {
+   "steps": 283,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0203": {
+   "steps": 521,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0204": {
+   "steps": 526,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0205": {
+   "steps": 314,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0206": {
+   "steps": 365,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0207": {
+   "steps": 529,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0208": {
+   "steps": 546,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0209": {
+   "steps": 545,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0210": {
+   "steps": 188,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0211": {
+   "steps": 86,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0212": {
+   "steps": 20,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0213": {
+   "steps": 294,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0214": {
+   "steps": 405,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0215": {
+   "steps": 382,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0216": {
+   "steps": 417,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0217": {
+   "steps": 587,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0218": {
+   "steps": 669,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0219": {
+   "steps": 286,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0220": {
+   "steps": 246,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0221": {
+   "steps": 39,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0222": {
+   "steps": 40,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0223": {
+   "steps": 524,
+   "source": "experiments/recursive_window_programs.csv"
+  },
+  "scored_0224": {
+   "steps": 416,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0225": {
+   "steps": 236,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0226": {
+   "steps": 172,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0227": {
+   "steps": 234,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0228": {
+   "steps": 317,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0229": {
+   "steps": 320,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0230": {
+   "steps": 510,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0231": {
+   "steps": 427,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0232": {
+   "steps": 390,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0233": {
+   "steps": 66,
+   "source": "reports/factor_routing_benchmark.json#own/affine"
+  },
+  "scored_0234": {
+   "steps": 433,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0235": {
+   "steps": 302,
+   "source": "reports/demand_pruning.json#single"
+  },
+  "scored_0236": {
+   "steps": 249,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0237": {
+   "steps": 32,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0238": {
+   "steps": 335,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0239": {
+   "steps": 395,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0240": {
+   "steps": 278,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0241": {
+   "steps": 32,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0242": {
+   "steps": 388,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0243": {
+   "steps": 292,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0244": {
+   "steps": 448,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0245": {
+   "steps": 257,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0246": {
+   "steps": 327,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0247": {
+   "steps": 326,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0248": {
+   "steps": 424,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0249": {
+   "steps": 638,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0250": {
+   "steps": 51,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0251": {
+   "steps": 321,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0252": {
+   "steps": 159,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0253": {
+   "steps": 92,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0254": {
+   "steps": 543,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0255": {
+   "steps": 682,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0256": {
+   "steps": 177,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0257": {
+   "steps": 458,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0258": {
+   "steps": 655,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0259": {
+   "steps": 249,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0260": {
+   "steps": 190,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0261": {
+   "steps": 408,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0262": {
+   "steps": 522,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0263": {
+   "steps": 567,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0264": {
+   "steps": 522,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0265": {
+   "steps": 481,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0266": {
+   "steps": 255,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0267": {
+   "steps": 276,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0268": {
+   "steps": 493,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0269": {
+   "steps": 670,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0270": {
+   "steps": 287,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0271": {
+   "steps": 92,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0272": {
+   "steps": 23,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0273": {
+   "steps": 437,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0274": {
+   "steps": 389,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0275": {
+   "steps": 339,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0276": {
+   "steps": 159,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0277": {
+   "steps": 339,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0278": {
+   "steps": 169,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0279": {
+   "steps": 629,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0280": {
+   "steps": 407,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0281": {
+   "steps": 443,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0282": {
+   "steps": 55,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0283": {
+   "steps": 498,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0284": {
+   "steps": 365,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0285": {
+   "steps": 506,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0286": {
+   "steps": 320,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0287": {
+   "steps": 459,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0288": {
+   "steps": 310,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0289": {
+   "steps": 18,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0290": {
+   "steps": 341,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0291": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0292": {
+   "steps": 124,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0293": {
+   "steps": 470,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0294": {
+   "steps": 371,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0295": {
+   "steps": 285,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0296": {
+   "steps": 98,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0297": {
+   "steps": 161,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0298": {
+   "steps": 132,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0299": {
+   "steps": 214,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0300": {
+   "steps": 86,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0301": {
+   "steps": 6,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0302": {
+   "steps": 370,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0303": {
+   "steps": 493,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0304": {
+   "steps": 375,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0305": {
+   "steps": 223,
+   "source": "reports/demand_pruning.json#single"
+  },
+  "scored_0306": {
+   "steps": 625,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0307": {
+   "steps": 197,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0308": {
+   "steps": 70,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0309": {
+   "steps": 330,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0310": {
+   "steps": 286,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0311": {
+   "steps": 219,
+   "source": "reports/factor_routing_benchmark.json#own/affine"
+  },
+  "scored_0312": {
+   "steps": 588,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0313": {
+   "steps": 392,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0314": {
+   "steps": 456,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0315": {
+   "steps": 561,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0316": {
+   "steps": 242,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0317": {
+   "steps": 419,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0318": {
+   "steps": 431,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0319": {
+   "steps": 529,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0320": {
+   "steps": 67,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0321": {
+   "steps": 673,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0322": {
+   "steps": 410,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0323": {
+   "steps": 226,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0324": {
+   "steps": 419,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0325": {
+   "steps": 292,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0326": {
+   "steps": 366,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0327": {
+   "steps": 296,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0328": {
+   "steps": 563,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0329": {
+   "steps": 291,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0330": {
+   "steps": 397,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0331": {
+   "steps": 592,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0332": {
+   "steps": 346,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0333": {
+   "steps": 503,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0334": {
+   "steps": 538,
+   "source": "experiments/recursive_window_programs.csv"
+  },
+  "scored_0335": {
+   "steps": 452,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0336": {
+   "steps": 360,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0337": {
+   "steps": 279,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0338": {
+   "steps": 413,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0339": {
+   "steps": 198,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0340": {
+   "steps": 154,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0341": {
+   "steps": 311,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0342": {
+   "steps": 517,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0343": {
+   "steps": 257,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0344": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0345": {
+   "steps": 486,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0346": {
+   "steps": 414,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0347": {
+   "steps": 154,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0348": {
+   "steps": 5,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0349": {
+   "steps": 442,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0350": {
+   "steps": 134,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0351": {
+   "steps": 377,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0352": {
+   "steps": 530,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0353": {
+   "steps": 342,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0354": {
+   "steps": 395,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0355": {
+   "steps": 268,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0356": {
+   "steps": 182,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0357": {
+   "steps": 550,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0358": {
+   "steps": 389,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0359": {
+   "steps": 274,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0360": {
+   "steps": 298,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0361": {
+   "steps": 439,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0362": {
+   "steps": 271,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0363": {
+   "steps": 375,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0364": {
+   "steps": 262,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0365": {
+   "steps": 6,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0366": {
+   "steps": 280,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0367": {
+   "steps": 151,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0368": {
+   "steps": 36,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0369": {
+   "steps": 571,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0370": {
+   "steps": 659,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0371": {
+   "steps": 329,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0372": {
+   "steps": 263,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0373": {
+   "steps": 538,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0374": {
+   "steps": 541,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0375": {
+   "steps": 504,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0376": {
+   "steps": 28,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0377": {
+   "steps": 105,
+   "source": "reports/factor_routing_benchmark.json#live/affine"
+  },
+  "scored_0378": {
+   "steps": 191,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0379": {
+   "steps": 269,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0380": {
+   "steps": 375,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0381": {
+   "steps": 487,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0382": {
+   "steps": 348,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0383": {
+   "steps": 344,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0384": {
+   "steps": 353,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0385": {
+   "steps": 371,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0386": {
+   "steps": 255,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0387": {
+   "steps": 25,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0388": {
+   "steps": 49,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0389": {
+   "steps": 407,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0390": {
+   "steps": 241,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0391": {
+   "steps": 519,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0392": {
+   "steps": 238,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0393": {
+   "steps": 58,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0394": {
+   "steps": 314,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0395": {
+   "steps": 188,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0396": {
+   "steps": 79,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0397": {
+   "steps": 454,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0398": {
+   "steps": 493,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0399": {
+   "steps": 21,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0400": {
+   "steps": 539,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0401": {
+   "steps": 61,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0402": {
+   "steps": 199,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0403": {
+   "steps": 556,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0404": {
+   "steps": 238,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0405": {
+   "steps": 643,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0406": {
+   "steps": 322,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0407": {
+   "steps": 204,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0408": {
+   "steps": 219,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0409": {
+   "steps": 22,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0410": {
+   "steps": 419,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0411": {
+   "steps": 418,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0412": {
+   "steps": 403,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0413": {
+   "steps": 363,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0414": {
+   "steps": 296,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0415": {
+   "steps": 350,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0416": {
+   "steps": 446,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0417": {
+   "steps": 397,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0418": {
+   "steps": 274,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0419": {
+   "steps": 54,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0420": {
+   "steps": 355,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0421": {
+   "steps": 386,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0422": {
+   "steps": 380,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0423": {
+   "steps": 115,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0424": {
+   "steps": 527,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0425": {
+   "steps": 67,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0426": {
+   "steps": 325,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0427": {
+   "steps": 403,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0428": {
+   "steps": 512,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0429": {
+   "steps": 261,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0430": {
+   "steps": 191,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0431": {
+   "steps": 180,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0432": {
+   "steps": 327,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0433": {
+   "steps": 171,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0434": {
+   "steps": 242,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0435": {
+   "steps": 383,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0436": {
+   "steps": 390,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0437": {
+   "steps": 420,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0438": {
+   "steps": 471,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0439": {
+   "steps": 255,
+   "source": "reports/factor_routing_benchmark.json#live/affine"
+  },
+  "scored_0440": {
+   "steps": 451,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0441": {
+   "steps": 434,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0442": {
+   "steps": 422,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0443": {
+   "steps": 72,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0444": {
+   "steps": 597,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0445": {
+   "steps": 543,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0446": {
+   "steps": 596,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0447": {
+   "steps": 538,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0448": {
+   "steps": 483,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0449": {
+   "steps": 176,
+   "source": "reports/factor_routing_benchmark.json#own/factor"
+  },
+  "scored_0450": {
+   "steps": 674,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0451": {
+   "steps": 266,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0452": {
+   "steps": 488,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0453": {
+   "steps": 359,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0454": {
+   "steps": 478,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0455": {
+   "steps": 67,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0456": {
+   "steps": 267,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0457": {
+   "steps": 340,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0458": {
+   "steps": 345,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0459": {
+   "steps": 161,
+   "source": "reports/factor_routing_benchmark.json#own/affine"
+  },
+  "scored_0460": {
+   "steps": 381,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0461": {
+   "steps": 40,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0462": {
+   "steps": 270,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0463": {
+   "steps": 237,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0464": {
+   "steps": 95,
+   "source": "reports/demand_pruning.json#joint"
+  },
+  "scored_0465": {
+   "steps": 228,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0466": {
+   "steps": 440,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0467": {
+   "steps": 207,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0468": {
+   "steps": 352,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0469": {
+   "steps": 155,
+   "source": "reports/factor_routing_benchmark.json#own/factor"
+  },
+  "scored_0470": {
+   "steps": 631,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0471": {
+   "steps": 231,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0472": {
+   "steps": 24,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0473": {
+   "steps": 58,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0474": {
+   "steps": 158,
+   "source": "reports/factor_routing_benchmark.json#own/factor"
+  },
+  "scored_0475": {
+   "steps": 258,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0476": {
+   "steps": 513,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0477": {
+   "steps": 416,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0478": {
+   "steps": 191,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0479": {
+   "steps": 260,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0480": {
+   "steps": 340,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0481": {
+   "steps": 436,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0482": {
+   "steps": 245,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0483": {
+   "steps": 394,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0484": {
+   "steps": 323,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0485": {
+   "steps": 2,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0486": {
+   "steps": 265,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0487": {
+   "steps": 68,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0488": {
+   "steps": 332,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0489": {
+   "steps": 346,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0490": {
+   "steps": 7,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0491": {
+   "steps": 447,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0492": {
+   "steps": 76,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0493": {
+   "steps": 590,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0494": {
+   "steps": 556,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0495": {
+   "steps": 264,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0496": {
+   "steps": 189,
+   "source": "reports/memory_frontier_benchmark.json#13"
+  },
+  "scored_0497": {
+   "steps": 410,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0498": {
+   "steps": 428,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0499": {
+   "steps": 413,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0500": {
+   "steps": 175,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0501": {
+   "steps": 323,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0502": {
+   "steps": 386,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0503": {
+   "steps": 181,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0504": {
+   "steps": 437,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0505": {
+   "steps": 272,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0506": {
+   "steps": 281,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0507": {
+   "steps": 379,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0508": {
+   "steps": 477,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0509": {
+   "steps": 175,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0510": {
+   "steps": 198,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0511": {
+   "steps": 603,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0512": {
+   "steps": 368,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0513": {
+   "steps": 351,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0514": {
+   "steps": 498,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0515": {
+   "steps": 34,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0516": {
+   "steps": 373,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0517": {
+   "steps": 373,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0518": {
+   "steps": 452,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0519": {
+   "steps": 196,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0520": {
+   "steps": 414,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0521": {
+   "steps": 389,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0522": {
+   "steps": 185,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0523": {
+   "steps": 281,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0524": {
+   "steps": 212,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0525": {
+   "steps": 290,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0526": {
+   "steps": 502,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0527": {
+   "steps": 557,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0528": {
+   "steps": 174,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0529": {
+   "steps": 229,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0530": {
+   "steps": 366,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0531": {
+   "steps": 451,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0532": {
+   "steps": 166,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0533": {
+   "steps": 222,
+   "source": "reports/factor_routing_benchmark.json#own/factor"
+  },
+  "scored_0534": {
+   "steps": 183,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0535": {
+   "steps": 332,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0536": {
+   "steps": 597,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0537": {
+   "steps": 3,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0538": {
+   "steps": 408,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0539": {
+   "steps": 214,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0540": {
+   "steps": 403,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0541": {
+   "steps": 117,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0542": {
+   "steps": 235,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0543": {
+   "steps": 227,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0544": {
+   "steps": 405,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0545": {
+   "steps": 258,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0546": {
+   "steps": 352,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0547": {
+   "steps": 232,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0548": {
+   "steps": 83,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0549": {
+   "steps": 246,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0550": {
+   "steps": 275,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0551": {
+   "steps": 422,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0552": {
+   "steps": 536,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0553": {
+   "steps": 417,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0554": {
+   "steps": 250,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0555": {
+   "steps": 305,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0556": {
+   "steps": 59,
+   "source": "experiments/deep_ten_programs.csv"
+  },
+  "scored_0557": {
+   "steps": 291,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0558": {
+   "steps": 160,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0559": {
+   "steps": 77,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0560": {
+   "steps": 44,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0561": {
+   "steps": 218,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0562": {
+   "steps": 199,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0563": {
+   "steps": 238,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0564": {
+   "steps": 61,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0565": {
+   "steps": 522,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0566": {
+   "steps": 50,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0567": {
+   "steps": 296,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0568": {
+   "steps": 280,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0569": {
+   "steps": 222,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0570": {
+   "steps": 194,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0571": {
+   "steps": 462,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0572": {
+   "steps": 554,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0573": {
+   "steps": 434,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0574": {
+   "steps": 224,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0575": {
+   "steps": 199,
+   "source": "reports/demand_pruning.json#joint"
+  },
+  "scored_0576": {
+   "steps": 387,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0577": {
+   "steps": 378,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0578": {
+   "steps": 321,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0579": {
+   "steps": 400,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0580": {
+   "steps": 547,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0581": {
+   "steps": 613,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0582": {
+   "steps": 432,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0583": {
+   "steps": 41,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0584": {
+   "steps": 51,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0585": {
+   "steps": 423,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0586": {
+   "steps": 186,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0587": {
+   "steps": 351,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0588": {
+   "steps": 312,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0589": {
+   "steps": 182,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0590": {
+   "steps": 220,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0591": {
+   "steps": 288,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0592": {
+   "steps": 499,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0593": {
+   "steps": 558,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0594": {
+   "steps": 550,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0595": {
+   "steps": 244,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0596": {
+   "steps": 302,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0597": {
+   "steps": 6,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0598": {
+   "steps": 101,
+   "source": "reports/factor_routing_benchmark.json#live/affine"
+  },
+  "scored_0599": {
+   "steps": 447,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0600": {
+   "steps": 6,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0601": {
+   "steps": 256,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0602": {
+   "steps": 142,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0603": {
+   "steps": 366,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0604": {
+   "steps": 331,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0605": {
+   "steps": 381,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0606": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0607": {
+   "steps": 280,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0608": {
+   "steps": 343,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0609": {
+   "steps": 357,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0610": {
+   "steps": 644,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0611": {
+   "steps": 69,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0612": {
+   "steps": 624,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0613": {
+   "steps": 245,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0614": {
+   "steps": 21,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0615": {
+   "steps": 246,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0616": {
+   "steps": 366,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0617": {
+   "steps": 238,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0618": {
+   "steps": 236,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0619": {
+   "steps": 379,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0620": {
+   "steps": 78,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0621": {
+   "steps": 403,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0622": {
+   "steps": 400,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0623": {
+   "steps": 170,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0624": {
+   "steps": 271,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0625": {
+   "steps": 119,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0626": {
+   "steps": 421,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0627": {
+   "steps": 338,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0628": {
+   "steps": 483,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0629": {
+   "steps": 377,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0630": {
+   "steps": 39,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0631": {
+   "steps": 345,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0632": {
+   "steps": 441,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0633": {
+   "steps": 400,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0634": {
+   "steps": 402,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0635": {
+   "steps": 41,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0636": {
+   "steps": 613,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0637": {
+   "steps": 34,
+   "source": "reports/factor_routing_benchmark.json#live/factor"
+  },
+  "scored_0638": {
+   "steps": 654,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0639": {
+   "steps": 259,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0640": {
+   "steps": 509,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0641": {
+   "steps": 259,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0642": {
+   "steps": 155,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0643": {
+   "steps": 437,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0644": {
+   "steps": 337,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0645": {
+   "steps": 464,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0646": {
+   "steps": 408,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0647": {
+   "steps": 491,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0648": {
+   "steps": 218,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0649": {
+   "steps": 251,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0650": {
+   "steps": 36,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0651": {
+   "steps": 407,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0652": {
+   "steps": 209,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0653": {
+   "steps": 400,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0654": {
+   "steps": 73,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0655": {
+   "steps": 636,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0656": {
+   "steps": 43,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0657": {
+   "steps": 204,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0658": {
+   "steps": 414,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0659": {
+   "steps": 101,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0660": {
+   "steps": 412,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0661": {
+   "steps": 555,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0662": {
+   "steps": 404,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0663": {
+   "steps": 427,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0664": {
+   "steps": 510,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0665": {
+   "steps": 198,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0666": {
+   "steps": 195,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0667": {
+   "steps": 240,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0668": {
+   "steps": 254,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0669": {
+   "steps": 342,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0670": {
+   "steps": 423,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0671": {
+   "steps": 446,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0672": {
+   "steps": 123,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0673": {
+   "steps": 377,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0674": {
+   "steps": 283,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0675": {
+   "steps": 340,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0676": {
+   "steps": 6,
+   "source": "reports/factor_routing_benchmark.json#own/delta"
+  },
+  "scored_0677": {
+   "steps": 541,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0678": {
+   "steps": 204,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0679": {
+   "steps": 264,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0680": {
+   "steps": 493,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0681": {
+   "steps": 516,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0682": {
+   "steps": 656,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0683": {
+   "steps": 327,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0684": {
+   "steps": 262,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0685": {
+   "steps": 428,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0686": {
+   "steps": 211,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0687": {
+   "steps": 558,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0688": {
+   "steps": 389,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0689": {
+   "steps": 431,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0690": {
+   "steps": 633,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0691": {
+   "steps": 176,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0692": {
+   "steps": 482,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0693": {
+   "steps": 415,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0694": {
+   "steps": 362,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0695": {
+   "steps": 265,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0696": {
+   "steps": 169,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0697": {
+   "steps": 282,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0698": {
+   "steps": 563,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0699": {
+   "steps": 340,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0700": {
+   "steps": 219,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0701": {
+   "steps": 31,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0702": {
+   "steps": 476,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0703": {
+   "steps": 396,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0704": {
+   "steps": 283,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0705": {
+   "steps": 361,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0706": {
+   "steps": 438,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0707": {
+   "steps": 195,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0708": {
+   "steps": 355,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0709": {
+   "steps": 199,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0710": {
+   "steps": 142,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0711": {
+   "steps": 23,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0712": {
+   "steps": 426,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0713": {
+   "steps": 223,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0714": {
+   "steps": 483,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0715": {
+   "steps": 367,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0716": {
+   "steps": 265,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0717": {
+   "steps": 282,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0718": {
+   "steps": 320,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0719": {
+   "steps": 615,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0720": {
+   "steps": 74,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0721": {
+   "steps": 8,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0722": {
+   "steps": 430,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0723": {
+   "steps": 204,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0724": {
+   "steps": 386,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0725": {
+   "steps": 532,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0726": {
+   "steps": 344,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0727": {
+   "steps": 141,
+   "source": "reports/factor_routing_benchmark.json#own/factor"
+  },
+  "scored_0728": {
+   "steps": 608,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0729": {
+   "steps": 667,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0730": {
+   "steps": 302,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0731": {
+   "steps": 400,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0732": {
+   "steps": 279,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0733": {
+   "steps": 213,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0734": {
+   "steps": 336,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0735": {
+   "steps": 252,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0736": {
+   "steps": 390,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0737": {
+   "steps": 261,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0738": {
+   "steps": 187,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0739": {
+   "steps": 344,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0740": {
+   "steps": 304,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0741": {
+   "steps": 291,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0742": {
+   "steps": 438,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0743": {
+   "steps": 231,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0744": {
+   "steps": 674,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0745": {
+   "steps": 235,
+   "source": "reports/monte_carlo_recipe_search.json#runs/3/arms/fresh"
+  },
+  "scored_0746": {
+   "steps": 360,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0747": {
+   "steps": 349,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0748": {
+   "steps": 559,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0749": {
+   "steps": 210,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0750": {
+   "steps": 273,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0751": {
+   "steps": 527,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0752": {
+   "steps": 218,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0753": {
+   "steps": 118,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0754": {
+   "steps": 393,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0755": {
+   "steps": 168,
+   "source": "reports/monte_carlo_recipe_search.json#runs/3/arms/hill"
+  },
+  "scored_0756": {
+   "steps": 342,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0757": {
+   "steps": 298,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0758": {
+   "steps": 241,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0759": {
+   "steps": 477,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0760": {
+   "steps": 146,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0761": {
+   "steps": 216,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0762": {
+   "steps": 654,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0763": {
+   "steps": 216,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0764": {
+   "steps": 464,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0765": {
+   "steps": 430,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0766": {
+   "steps": 507,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0767": {
+   "steps": 275,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0768": {
+   "steps": 275,
+   "source": "reports/factor_routing_benchmark.json#own/affine"
+  },
+  "scored_0769": {
+   "steps": 320,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0770": {
+   "steps": 362,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0771": {
+   "steps": 640,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0772": {
+   "steps": 285,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0773": {
+   "steps": 108,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0774": {
+   "steps": 668,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0775": {
+   "steps": 374,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0776": {
+   "steps": 541,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0777": {
+   "steps": 44,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0778": {
+   "steps": 292,
+   "source": "experiments/recursive_window_programs.csv"
+  },
+  "scored_0779": {
+   "steps": 391,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0780": {
+   "steps": 629,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0781": {
+   "steps": 595,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0782": {
+   "steps": 344,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0783": {
+   "steps": 249,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0784": {
+   "steps": 295,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0785": {
+   "steps": 246,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0786": {
+   "steps": 594,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0787": {
+   "steps": 230,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0788": {
+   "steps": 545,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0789": {
+   "steps": 428,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0790": {
+   "steps": 342,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0791": {
+   "steps": 212,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0792": {
+   "steps": 343,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0793": {
+   "steps": 525,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0794": {
+   "steps": 413,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0795": {
+   "steps": 426,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0796": {
+   "steps": 521,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0797": {
+   "steps": 164,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0798": {
+   "steps": 4,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0799": {
+   "steps": 555,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0800": {
+   "steps": 167,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0801": {
+   "steps": 229,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0802": {
+   "steps": 438,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0803": {
+   "steps": 180,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0804": {
+   "steps": 253,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0805": {
+   "steps": 222,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0806": {
+   "steps": 199,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0807": {
+   "steps": 340,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0808": {
+   "steps": 594,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0809": {
+   "steps": 304,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0810": {
+   "steps": 29,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0811": {
+   "steps": 183,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0812": {
+   "steps": 128,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0813": {
+   "steps": 523,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0814": {
+   "steps": 434,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0815": {
+   "steps": 520,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0816": {
+   "steps": 132,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0817": {
+   "steps": 408,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0818": {
+   "steps": 24,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0819": {
+   "steps": 554,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0820": {
+   "steps": 543,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0821": {
+   "steps": 219,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0822": {
+   "steps": 41,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0823": {
+   "steps": 406,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0824": {
+   "steps": 320,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0825": {
+   "steps": 274,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0826": {
+   "steps": 501,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0827": {
+   "steps": 465,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0828": {
+   "steps": 67,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0829": {
+   "steps": 410,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0830": {
+   "steps": 231,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0831": {
+   "steps": 200,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0832": {
+   "steps": 438,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0833": {
+   "steps": 165,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0834": {
+   "steps": 505,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0835": {
+   "steps": 145,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0836": {
+   "steps": 427,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0837": {
+   "steps": 555,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0838": {
+   "steps": 320,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0839": {
+   "steps": 407,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0840": {
+   "steps": 545,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0841": {
+   "steps": 404,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0842": {
+   "steps": 28,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0843": {
+   "steps": 323,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0844": {
+   "steps": 609,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0845": {
+   "steps": 521,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0846": {
+   "steps": 223,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0847": {
+   "steps": 410,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0848": {
+   "steps": 590,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0849": {
+   "steps": 441,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0850": {
+   "steps": 426,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0851": {
+   "steps": 64,
+   "source": "reports/factor_routing_benchmark.json#own/delta"
+  },
+  "scored_0852": {
+   "steps": 368,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0853": {
+   "steps": 421,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0854": {
+   "steps": 384,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0855": {
+   "steps": 138,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0856": {
+   "steps": 510,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0857": {
+   "steps": 561,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0858": {
+   "steps": 46,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0859": {
+   "steps": 523,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0860": {
+   "steps": 321,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0861": {
+   "steps": 379,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0862": {
+   "steps": 377,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0863": {
+   "steps": 73,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0864": {
+   "steps": 435,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0865": {
+   "steps": 312,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0866": {
+   "steps": 31,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0867": {
+   "steps": 197,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0868": {
+   "steps": 63,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0869": {
+   "steps": 170,
+   "source": "reports/iterate_branch_merges.json.gz"
+  },
+  "scored_0870": {
+   "steps": 531,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0871": {
+   "steps": 262,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0872": {
+   "steps": 233,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0873": {
+   "steps": 79,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0874": {
+   "steps": 34,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0875": {
+   "steps": 392,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0876": {
+   "steps": 477,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0877": {
+   "steps": 63,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0878": {
+   "steps": 370,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0879": {
+   "steps": 233,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0880": {
+   "steps": 72,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0881": {
+   "steps": 192,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0882": {
+   "steps": 25,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0883": {
+   "steps": 10,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0884": {
+   "steps": 252,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0885": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0886": {
+   "steps": 383,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0887": {
+   "steps": 4,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0888": {
+   "steps": 294,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0889": {
+   "steps": 218,
+   "source": "experiments/recursive_window_programs.csv"
+  },
+  "scored_0890": {
+   "steps": 190,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0891": {
+   "steps": 139,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0892": {
+   "steps": 17,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0893": {
+   "steps": 307,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0894": {
+   "steps": 172,
+   "source": "reports/factor_routing_benchmark.json#live/affine"
+  },
+  "scored_0895": {
+   "steps": 255,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0896": {
+   "steps": 443,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0897": {
+   "steps": 82,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0898": {
+   "steps": 187,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0899": {
+   "steps": 557,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0900": {
+   "steps": 391,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0901": {
+   "steps": 18,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0902": {
+   "steps": 508,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0903": {
+   "steps": 361,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0904": {
+   "steps": 386,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0905": {
+   "steps": 549,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0906": {
+   "steps": 490,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0907": {
+   "steps": 286,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0908": {
+   "steps": 36,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0909": {
+   "steps": 390,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0910": {
+   "steps": 72,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0911": {
+   "steps": 197,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0912": {
+   "steps": 516,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0913": {
+   "steps": 64,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0914": {
+   "steps": 48,
+   "source": "reports/deep100_best.json.gz"
+  },
+  "scored_0915": {
+   "steps": 448,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0916": {
+   "steps": 537,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0917": {
+   "steps": 505,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0918": {
+   "steps": 499,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0919": {
+   "steps": 390,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0920": {
+   "steps": 336,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0921": {
+   "steps": 398,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0922": {
+   "steps": 25,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0923": {
+   "steps": 452,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0924": {
+   "steps": 280,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0925": {
+   "steps": 365,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0926": {
+   "steps": 26,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0927": {
+   "steps": 319,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0928": {
+   "steps": 51,
+   "source": "reports/factor_routing_benchmark.json#own/affine"
+  },
+  "scored_0929": {
+   "steps": 317,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0930": {
+   "steps": 174,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0931": {
+   "steps": 4,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0932": {
+   "steps": 558,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0933": {
+   "steps": 382,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0934": {
+   "steps": 327,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0935": {
+   "steps": 398,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0936": {
+   "steps": 202,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0937": {
+   "steps": 65,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0938": {
+   "steps": 334,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0939": {
+   "steps": 349,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0940": {
+   "steps": 307,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0941": {
+   "steps": 552,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0942": {
+   "steps": 369,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0943": {
+   "steps": 198,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0944": {
+   "steps": 504,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0945": {
+   "steps": 34,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0946": {
+   "steps": 526,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0947": {
+   "steps": 190,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0948": {
+   "steps": 296,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0949": {
+   "steps": 159,
+   "source": "reports/factor_routing_benchmark.json#own/factor"
+  },
+  "scored_0950": {
+   "steps": 298,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0951": {
+   "steps": 199,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0952": {
+   "steps": 499,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0953": {
+   "steps": 431,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0954": {
+   "steps": 167,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0955": {
+   "steps": 182,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0956": {
+   "steps": 545,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0957": {
+   "steps": 60,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0958": {
+   "steps": 59,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0959": {
+   "steps": 556,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0960": {
+   "steps": 287,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0961": {
+   "steps": 268,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0962": {
+   "steps": 39,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0963": {
+   "steps": 294,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0964": {
+   "steps": 483,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0965": {
+   "steps": 261,
+   "source": "reports/hybrid_graph_results.json#own_final_program"
+  },
+  "scored_0966": {
+   "steps": 181,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0967": {
+   "steps": 242,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0968": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0969": {
+   "steps": 352,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0970": {
+   "steps": 549,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0971": {
+   "steps": 19,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0972": {
+   "steps": 275,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0973": {
+   "steps": 135,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0974": {
+   "steps": 551,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0975": {
+   "steps": 297,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0976": {
+   "steps": 268,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0977": {
+   "steps": 388,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0978": {
+   "steps": 235,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0979": {
+   "steps": 413,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0980": {
+   "steps": 293,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0981": {
+   "steps": 30,
+   "source": "reports/joint_bridge_verified_programs.json"
+  },
+  "scored_0982": {
+   "steps": 645,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0983": {
+   "steps": 332,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0984": {
+   "steps": 309,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0985": {
+   "steps": 296,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0986": {
+   "steps": 398,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0987": {
+   "steps": 204,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0988": {
+   "steps": 353,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0989": {
+   "steps": 191,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0990": {
+   "steps": 423,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0991": {
+   "steps": 409,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0992": {
+   "steps": 634,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0993": {
+   "steps": 523,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0994": {
+   "steps": 385,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0995": {
+   "steps": 350,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0996": {
+   "steps": 172,
+   "source": "reports/factor_quotient_programs.json"
+  },
+  "scored_0997": {
+   "steps": 307,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0998": {
+   "steps": 480,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_0999": {
+   "steps": 238,
+   "source": "experiments/anchor_scored_submission.csv"
+  },
+  "scored_1000": {
+   "steps": 544,
+   "source": "experiments/deep_ten_programs.csv"
+  }
+ }
+}

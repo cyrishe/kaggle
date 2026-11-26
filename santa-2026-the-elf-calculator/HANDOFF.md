@@ -1,5 +1,17 @@
 # 换环境继续 Elf Calculator 研究
 
+## 2026-11-26 的搜索实验与回放
+
+从本竞赛目录运行以下命令。回放仅需 Python 标准库和官方文件 `data/puzzles.csv`。
+
+```sh
+python3 experiments/replay_collective_best.py
+```
+
+22 份程序的指令回放和千题旧步数复算通过后，最后一行应为 `replayed=22 archive_cases=1000 old=320585 saved=3177 updated=317408`。要从本轮各组候选重新选出逐题最短程序，运行 `python3.12 experiments/summarize_collective_search.py`，将复核 280 份候选记录，其中有重复的程序。[逐题程序](reports/collective_search_best.json) · [实验设计与重跑命令](reports/collective_search_study.md)
+
+## 2026-11-25 的实验归档
+
 更新于 2026-11-25。最新一轮有 44 道计分题的完整自研程序，合计 2,786 步。同题的公开存档合计 2,090 步。三题持平，分别是 scored_0289（18 步）、scored_0399（21 步）和 scored_0810（29 步）。这批题包括按最大目标值选出的组和历史诊断题。各轮对部分题追加了搜索，不能用这个合计推算千题成绩。[44 题逐题结果与固定预算对照](reports/joint_bridge_study.md)
 
 ## 在新机器回放已有结果

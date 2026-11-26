@@ -1,0 +1,111 @@
+{
+  "public_dictionary": {
+    "source": "https://raw.githubusercontent.com/niclox44/ElfCalculator-Kaggle/f392d2444f5d87146a4a856f6f00a6cdc9c89c62/third_party/santa_dictionary/beam_search.cpp",
+    "commit": "f392d2444f5d87146a4a856f6f00a6cdc9c89c62",
+    "sha256": "b0468e79adca7358d24b3ac44d5678536f29bf01774c5039d1119b0c01c415a4",
+    "provenance": "Public constructor by Tony Li, parameterized by konbu17 and extended by niclox44; no input programs or precomputed intermediates.",
+    "budget": "One full construction per arm and case; one CPU process. Runtime excludes compilation and independent replay."
+  },
+  "dictionary_runs": {
+    "fixed": {
+      "steps": 1558,
+      "cpu_seconds": 7.778
+    },
+    "shuffle_17": {
+      "steps": 1523,
+      "cpu_seconds": 8.567
+    },
+    "shuffle_29": {
+      "steps": 1523,
+      "cpu_seconds": 8.119
+    },
+    "replan": {
+      "steps": 1411,
+      "cpu_seconds": 15.975
+    }
+  },
+  "matrix_detector": {
+    "pinned_detector": "https://github.com/Hansen0223/Santa_2026/blob/3bfae157e32a3ea49d6333cf5b0619e9905d44e0/solvers/native/matrix_recover.cpp",
+    "seed": 2026112616,
+    "all_summary": {
+      "n": 1000,
+      "any": 546,
+      "at_least_80pct": 115,
+      "all": 30
+    },
+    "sample_summary": {
+      "real": {
+        "n": 64,
+        "any": 36,
+        "at_least_80pct": 8,
+        "all": 3
+      },
+      "shift": {
+        "n": 64,
+        "any": 29,
+        "at_least_80pct": 2,
+        "all": 0
+      }
+    }
+  },
+  "matrix_local_emit": {
+    "scored_0529": {
+      "steps": 157,
+      "covered": 26,
+      "targets": 30
+    },
+    "scored_0006": {
+      "steps": 130,
+      "covered": 32,
+      "targets": 32
+    }
+  },
+  "matrix_dictionary_emit": {
+    "scored_0529": {
+      "0": 152,
+      "17": 152,
+      "29": 152
+    },
+    "scored_0006": {
+      "0": 133,
+      "17": null,
+      "29": null
+    }
+  },
+  "matrix_graph_repair": {
+    "scored_0529": {
+      "plain_single": {
+        "before": 198,
+        "steps": 189,
+        "n_parents": 1
+      },
+      "combined_parents": {
+        "before": 152,
+        "steps": 138,
+        "n_parents": 4
+      },
+      "table_single": {
+        "before": 152,
+        "steps": 145,
+        "n_parents": 1
+      }
+    },
+    "scored_0006": {
+      "plain_single": {
+        "before": 180,
+        "steps": 175,
+        "n_parents": 1
+      },
+      "combined_parents": {
+        "before": 133,
+        "steps": 124,
+        "n_parents": 2
+      },
+      "table_single": {
+        "before": 133,
+        "steps": 126,
+        "n_parents": 1
+      }
+    }
+  }
+}
